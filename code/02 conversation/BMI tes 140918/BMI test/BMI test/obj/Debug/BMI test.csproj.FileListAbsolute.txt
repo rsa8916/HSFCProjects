@@ -1,0 +1,2 @@
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\BMI tes 140918\BMI test\BMI test\obj\Debug\BMI test.csprojAssemblyReference.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\BMI tes 140918\BMI test\BMI test\obj\Debug\BMI test.csproj.CoreCompileInputs.cache

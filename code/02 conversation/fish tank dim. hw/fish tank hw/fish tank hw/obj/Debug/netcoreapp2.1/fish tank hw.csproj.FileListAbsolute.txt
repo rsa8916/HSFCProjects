@@ -1,0 +1,4 @@
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\fish tank dim. hw\fish tank hw\fish tank hw\obj\Debug\netcoreapp2.1\fish tank hw.csproj.CoreCompileInputs.cache
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\fish tank dim. hw\fish tank hw\fish tank hw\obj\Debug\netcoreapp2.1\fish tank hw.AssemblyInfoInputs.cache
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\fish tank dim. hw\fish tank hw\fish tank hw\obj\Debug\netcoreapp2.1\fish tank hw.AssemblyInfo.cs
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\fish tank dim. hw\fish tank hw\fish tank hw\obj\Debug\netcoreapp2.1\fish tank hw.csprojAssemblyReference.cache

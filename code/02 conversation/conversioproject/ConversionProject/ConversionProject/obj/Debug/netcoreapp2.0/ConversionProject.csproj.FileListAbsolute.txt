@@ -1,0 +1,4 @@
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\conversioproject\ConversionProject\ConversionProject\obj\Debug\netcoreapp2.0\ConversionProject.csprojAssemblyReference.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\conversioproject\ConversionProject\ConversionProject\obj\Debug\netcoreapp2.0\ConversionProject.csproj.CoreCompileInputs.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\conversioproject\ConversionProject\ConversionProject\obj\Debug\netcoreapp2.0\ConversionProject.AssemblyInfoInputs.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\conversioproject\ConversionProject\ConversionProject\obj\Debug\netcoreapp2.0\ConversionProject.AssemblyInfo.cs

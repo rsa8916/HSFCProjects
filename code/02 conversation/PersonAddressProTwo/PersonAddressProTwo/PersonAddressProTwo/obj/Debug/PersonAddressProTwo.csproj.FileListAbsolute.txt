@@ -1,0 +1,7 @@
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\PersonAddressProTwo\PersonAddressProTwo\PersonAddressProTwo\obj\Debug\PersonAddressProTwo.csprojAssemblyReference.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\PersonAddressProTwo\PersonAddressProTwo\PersonAddressProTwo\obj\Debug\PersonAddressProTwo.csproj.CoreCompileInputs.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\PersonAddressProTwo\PersonAddressProTwo\PersonAddressProTwo\bin\Debug\PersonAddressProTwo.exe.config
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\PersonAddressProTwo\PersonAddressProTwo\PersonAddressProTwo\bin\Debug\PersonAddressProTwo.exe
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\PersonAddressProTwo\PersonAddressProTwo\PersonAddressProTwo\bin\Debug\PersonAddressProTwo.pdb
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\PersonAddressProTwo\PersonAddressProTwo\PersonAddressProTwo\obj\Debug\PersonAddressProTwo.exe
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\PersonAddressProTwo\PersonAddressProTwo\PersonAddressProTwo\obj\Debug\PersonAddressProTwo.pdb

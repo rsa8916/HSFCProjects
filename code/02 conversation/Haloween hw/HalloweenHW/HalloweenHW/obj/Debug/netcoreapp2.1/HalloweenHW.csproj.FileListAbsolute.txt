@@ -1,0 +1,11 @@
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\Haloween hw\HalloweenHW\HalloweenHW\bin\Debug\netcoreapp2.1\HalloweenHW.deps.json
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\Haloween hw\HalloweenHW\HalloweenHW\bin\Debug\netcoreapp2.1\HalloweenHW.runtimeconfig.json
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\Haloween hw\HalloweenHW\HalloweenHW\bin\Debug\netcoreapp2.1\HalloweenHW.runtimeconfig.dev.json
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\Haloween hw\HalloweenHW\HalloweenHW\bin\Debug\netcoreapp2.1\HalloweenHW.dll
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\Haloween hw\HalloweenHW\HalloweenHW\bin\Debug\netcoreapp2.1\HalloweenHW.pdb
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\Haloween hw\HalloweenHW\HalloweenHW\obj\Debug\netcoreapp2.1\HalloweenHW.csprojAssemblyReference.cache
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\Haloween hw\HalloweenHW\HalloweenHW\obj\Debug\netcoreapp2.1\HalloweenHW.csproj.CoreCompileInputs.cache
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\Haloween hw\HalloweenHW\HalloweenHW\obj\Debug\netcoreapp2.1\HalloweenHW.AssemblyInfoInputs.cache
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\Haloween hw\HalloweenHW\HalloweenHW\obj\Debug\netcoreapp2.1\HalloweenHW.AssemblyInfo.cs
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\Haloween hw\HalloweenHW\HalloweenHW\obj\Debug\netcoreapp2.1\HalloweenHW.dll
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\Haloween hw\HalloweenHW\HalloweenHW\obj\Debug\netcoreapp2.1\HalloweenHW.pdb

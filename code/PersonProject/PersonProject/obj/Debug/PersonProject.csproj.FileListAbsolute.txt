@@ -1,0 +1,7 @@
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\PersonProject\PersonProject\bin\Debug\PersonProject.exe.config
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\PersonProject\PersonProject\bin\Debug\PersonProject.exe
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\PersonProject\PersonProject\bin\Debug\PersonProject.pdb
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\PersonProject\PersonProject\obj\Debug\PersonProject.csprojAssemblyReference.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\PersonProject\PersonProject\obj\Debug\PersonProject.csproj.CoreCompileInputs.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\PersonProject\PersonProject\obj\Debug\PersonProject.exe
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\PersonProject\PersonProject\obj\Debug\PersonProject.pdb

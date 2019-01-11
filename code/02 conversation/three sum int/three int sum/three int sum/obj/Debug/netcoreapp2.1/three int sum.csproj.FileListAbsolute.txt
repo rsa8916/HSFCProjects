@@ -1,0 +1,11 @@
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\three sum int\three int sum\three int sum\bin\Debug\netcoreapp2.1\three int sum.deps.json
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\three sum int\three int sum\three int sum\bin\Debug\netcoreapp2.1\three int sum.runtimeconfig.json
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\three sum int\three int sum\three int sum\bin\Debug\netcoreapp2.1\three int sum.runtimeconfig.dev.json
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\three sum int\three int sum\three int sum\bin\Debug\netcoreapp2.1\three int sum.dll
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\three sum int\three int sum\three int sum\bin\Debug\netcoreapp2.1\three int sum.pdb
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\three sum int\three int sum\three int sum\obj\Debug\netcoreapp2.1\three int sum.csproj.CoreCompileInputs.cache
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\three sum int\three int sum\three int sum\obj\Debug\netcoreapp2.1\three int sum.AssemblyInfoInputs.cache
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\three sum int\three int sum\three int sum\obj\Debug\netcoreapp2.1\three int sum.AssemblyInfo.cs
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\three sum int\three int sum\three int sum\obj\Debug\netcoreapp2.1\three int sum.dll
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\three sum int\three int sum\three int sum\obj\Debug\netcoreapp2.1\three int sum.pdb
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\three sum int\three int sum\three int sum\obj\Debug\netcoreapp2.1\three int sum.csprojAssemblyReference.cache

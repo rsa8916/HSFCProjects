@@ -1,0 +1,14 @@
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\stacks\Stacks\Stacks\bin\Debug\Stacks.exe.config
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\stacks\Stacks\Stacks\bin\Debug\Stacks.exe
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\stacks\Stacks\Stacks\bin\Debug\Stacks.pdb
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\stacks\Stacks\Stacks\obj\Debug\Stacks.csprojAssemblyReference.cache
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\stacks\Stacks\Stacks\obj\Debug\Stacks.csproj.CoreCompileInputs.cache
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\stacks\Stacks\Stacks\obj\Debug\Stacks.exe
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\stacks\Stacks\Stacks\obj\Debug\Stacks.pdb
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\stacks\Stacks\Stacks\bin\Debug\Stacks.exe.config
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\stacks\Stacks\Stacks\bin\Debug\Stacks.exe
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\stacks\Stacks\Stacks\bin\Debug\Stacks.pdb
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\stacks\Stacks\Stacks\obj\Debug\Stacks.csprojAssemblyReference.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\stacks\Stacks\Stacks\obj\Debug\Stacks.csproj.CoreCompileInputs.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\stacks\Stacks\Stacks\obj\Debug\Stacks.exe
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\stacks\Stacks\Stacks\obj\Debug\Stacks.pdb

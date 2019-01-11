@@ -1,0 +1,10 @@
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\SimpleUI\SimpleUI\bin\Debug\SimpleUI.exe.config
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\SimpleUI\SimpleUI\bin\Debug\SimpleUI.exe
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\SimpleUI\SimpleUI\bin\Debug\SimpleUI.pdb
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\SimpleUI\SimpleUI\obj\Debug\SimpleUI.csprojAssemblyReference.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\SimpleUI\SimpleUI\obj\Debug\SimpleUI.Form1.resources
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\SimpleUI\SimpleUI\obj\Debug\SimpleUI.Properties.Resources.resources
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\SimpleUI\SimpleUI\obj\Debug\SimpleUI.csproj.GenerateResource.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\SimpleUI\SimpleUI\obj\Debug\SimpleUI.csproj.CoreCompileInputs.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\SimpleUI\SimpleUI\obj\Debug\SimpleUI.exe
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\SimpleUI\SimpleUI\obj\Debug\SimpleUI.pdb

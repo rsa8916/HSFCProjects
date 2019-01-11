@@ -1,0 +1,11 @@
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\ArrayProject\ArrayProject\ArrayProject\bin\Debug\netcoreapp2.0\ArrayProject.deps.json
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\ArrayProject\ArrayProject\ArrayProject\bin\Debug\netcoreapp2.0\ArrayProject.runtimeconfig.json
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\ArrayProject\ArrayProject\ArrayProject\bin\Debug\netcoreapp2.0\ArrayProject.runtimeconfig.dev.json
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\ArrayProject\ArrayProject\ArrayProject\bin\Debug\netcoreapp2.0\ArrayProject.dll
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\ArrayProject\ArrayProject\ArrayProject\bin\Debug\netcoreapp2.0\ArrayProject.pdb
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\ArrayProject\ArrayProject\ArrayProject\obj\Debug\netcoreapp2.0\ArrayProject.csprojAssemblyReference.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\ArrayProject\ArrayProject\ArrayProject\obj\Debug\netcoreapp2.0\ArrayProject.csproj.CoreCompileInputs.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\ArrayProject\ArrayProject\ArrayProject\obj\Debug\netcoreapp2.0\ArrayProject.AssemblyInfoInputs.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\ArrayProject\ArrayProject\ArrayProject\obj\Debug\netcoreapp2.0\ArrayProject.AssemblyInfo.cs
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\ArrayProject\ArrayProject\ArrayProject\obj\Debug\netcoreapp2.0\ArrayProject.dll
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\ArrayProject\ArrayProject\ArrayProject\obj\Debug\netcoreapp2.0\ArrayProject.pdb

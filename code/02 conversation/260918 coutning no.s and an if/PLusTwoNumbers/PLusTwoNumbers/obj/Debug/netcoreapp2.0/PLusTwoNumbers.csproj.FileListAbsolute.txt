@@ -1,0 +1,11 @@
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\260918 coutning no.s and an if\PLusTwoNumbers\PLusTwoNumbers\bin\Debug\netcoreapp2.0\PLusTwoNumbers.deps.json
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\260918 coutning no.s and an if\PLusTwoNumbers\PLusTwoNumbers\bin\Debug\netcoreapp2.0\PLusTwoNumbers.runtimeconfig.json
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\260918 coutning no.s and an if\PLusTwoNumbers\PLusTwoNumbers\bin\Debug\netcoreapp2.0\PLusTwoNumbers.runtimeconfig.dev.json
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\260918 coutning no.s and an if\PLusTwoNumbers\PLusTwoNumbers\bin\Debug\netcoreapp2.0\PLusTwoNumbers.dll
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\260918 coutning no.s and an if\PLusTwoNumbers\PLusTwoNumbers\bin\Debug\netcoreapp2.0\PLusTwoNumbers.pdb
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\260918 coutning no.s and an if\PLusTwoNumbers\PLusTwoNumbers\obj\Debug\netcoreapp2.0\PLusTwoNumbers.csprojAssemblyReference.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\260918 coutning no.s and an if\PLusTwoNumbers\PLusTwoNumbers\obj\Debug\netcoreapp2.0\PLusTwoNumbers.csproj.CoreCompileInputs.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\260918 coutning no.s and an if\PLusTwoNumbers\PLusTwoNumbers\obj\Debug\netcoreapp2.0\PLusTwoNumbers.AssemblyInfoInputs.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\260918 coutning no.s and an if\PLusTwoNumbers\PLusTwoNumbers\obj\Debug\netcoreapp2.0\PLusTwoNumbers.AssemblyInfo.cs
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\260918 coutning no.s and an if\PLusTwoNumbers\PLusTwoNumbers\obj\Debug\netcoreapp2.0\PLusTwoNumbers.dll
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\260918 coutning no.s and an if\PLusTwoNumbers\PLusTwoNumbers\obj\Debug\netcoreapp2.0\PLusTwoNumbers.pdb

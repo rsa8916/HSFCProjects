@@ -1,0 +1,11 @@
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\ConsoleApp1\forename and surname\forename and surname\bin\Debug\netcoreapp2.1\forename and surname.deps.json
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\ConsoleApp1\forename and surname\forename and surname\bin\Debug\netcoreapp2.1\forename and surname.runtimeconfig.json
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\ConsoleApp1\forename and surname\forename and surname\bin\Debug\netcoreapp2.1\forename and surname.runtimeconfig.dev.json
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\ConsoleApp1\forename and surname\forename and surname\bin\Debug\netcoreapp2.1\forename and surname.dll
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\ConsoleApp1\forename and surname\forename and surname\bin\Debug\netcoreapp2.1\forename and surname.pdb
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\ConsoleApp1\forename and surname\forename and surname\obj\Debug\netcoreapp2.1\forename and surname.csprojAssemblyReference.cache
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\ConsoleApp1\forename and surname\forename and surname\obj\Debug\netcoreapp2.1\forename and surname.csproj.CoreCompileInputs.cache
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\ConsoleApp1\forename and surname\forename and surname\obj\Debug\netcoreapp2.1\forename and surname.AssemblyInfoInputs.cache
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\ConsoleApp1\forename and surname\forename and surname\obj\Debug\netcoreapp2.1\forename and surname.AssemblyInfo.cs
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\ConsoleApp1\forename and surname\forename and surname\obj\Debug\netcoreapp2.1\forename and surname.dll
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\ConsoleApp1\forename and surname\forename and surname\obj\Debug\netcoreapp2.1\forename and surname.pdb

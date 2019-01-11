@@ -1,0 +1,10 @@
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\StackQueueProject\StackQueueProject\bin\Debug\StackQueueProject.exe.config
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\StackQueueProject\StackQueueProject\bin\Debug\StackQueueProject.exe
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\StackQueueProject\StackQueueProject\bin\Debug\StackQueueProject.pdb
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\StackQueueProject\StackQueueProject\obj\Debug\StackQueueProject.csprojAssemblyReference.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\StackQueueProject\StackQueueProject\obj\Debug\StackQueueProject.Form1.resources
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\StackQueueProject\StackQueueProject\obj\Debug\StackQueueProject.Properties.Resources.resources
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\StackQueueProject\StackQueueProject\obj\Debug\StackQueueProject.csproj.GenerateResource.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\StackQueueProject\StackQueueProject\obj\Debug\StackQueueProject.csproj.CoreCompileInputs.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\StackQueueProject\StackQueueProject\obj\Debug\StackQueueProject.exe
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\StackQueueProject\StackQueueProject\obj\Debug\StackQueueProject.pdb

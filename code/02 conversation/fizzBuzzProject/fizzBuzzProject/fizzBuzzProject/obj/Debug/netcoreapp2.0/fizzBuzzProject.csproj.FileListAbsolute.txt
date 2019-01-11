@@ -1,0 +1,17 @@
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\fizzBuzzProject\fizzBuzzProject\fizzBuzzProject\bin\Debug\netcoreapp2.0\fizzBuzzProject.deps.json
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\fizzBuzzProject\fizzBuzzProject\fizzBuzzProject\bin\Debug\netcoreapp2.0\fizzBuzzProject.runtimeconfig.json
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\fizzBuzzProject\fizzBuzzProject\fizzBuzzProject\bin\Debug\netcoreapp2.0\fizzBuzzProject.runtimeconfig.dev.json
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\fizzBuzzProject\fizzBuzzProject\fizzBuzzProject\bin\Debug\netcoreapp2.0\fizzBuzzProject.dll
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\fizzBuzzProject\fizzBuzzProject\fizzBuzzProject\bin\Debug\netcoreapp2.0\fizzBuzzProject.pdb
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\fizzBuzzProject\fizzBuzzProject\fizzBuzzProject\obj\Debug\netcoreapp2.0\fizzBuzzProject.csprojAssemblyReference.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\fizzBuzzProject\fizzBuzzProject\fizzBuzzProject\obj\Debug\netcoreapp2.0\fizzBuzzProject.csproj.CoreCompileInputs.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\fizzBuzzProject\fizzBuzzProject\fizzBuzzProject\obj\Debug\netcoreapp2.0\fizzBuzzProject.AssemblyInfoInputs.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\fizzBuzzProject\fizzBuzzProject\fizzBuzzProject\obj\Debug\netcoreapp2.0\fizzBuzzProject.AssemblyInfo.cs
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\fizzBuzzProject\fizzBuzzProject\fizzBuzzProject\obj\Debug\netcoreapp2.0\fizzBuzzProject.dll
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\fizzBuzzProject\fizzBuzzProject\fizzBuzzProject\obj\Debug\netcoreapp2.0\fizzBuzzProject.pdb
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\fizzBuzzProject\fizzBuzzProject\fizzBuzzProject\obj\Debug\netcoreapp2.0\fizzBuzzProject.csprojAssemblyReference.cache
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\fizzBuzzProject\fizzBuzzProject\fizzBuzzProject\obj\Debug\netcoreapp2.0\fizzBuzzProject.csproj.CoreCompileInputs.cache
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\fizzBuzzProject\fizzBuzzProject\fizzBuzzProject\obj\Debug\netcoreapp2.0\fizzBuzzProject.AssemblyInfoInputs.cache
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\fizzBuzzProject\fizzBuzzProject\fizzBuzzProject\obj\Debug\netcoreapp2.0\fizzBuzzProject.AssemblyInfo.cs
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\fizzBuzzProject\fizzBuzzProject\fizzBuzzProject\obj\Debug\netcoreapp2.0\fizzBuzzProject.dll
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\fizzBuzzProject\fizzBuzzProject\fizzBuzzProject\obj\Debug\netcoreapp2.0\fizzBuzzProject.pdb

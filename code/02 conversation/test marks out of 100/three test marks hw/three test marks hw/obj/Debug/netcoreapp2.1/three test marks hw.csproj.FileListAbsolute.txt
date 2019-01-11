@@ -1,0 +1,11 @@
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\test marks out of 100\three test marks hw\three test marks hw\obj\Debug\netcoreapp2.1\three test marks hw.csprojAssemblyReference.cache
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\test marks out of 100\three test marks hw\three test marks hw\obj\Debug\netcoreapp2.1\three test marks hw.csproj.CoreCompileInputs.cache
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\test marks out of 100\three test marks hw\three test marks hw\obj\Debug\netcoreapp2.1\three test marks hw.AssemblyInfoInputs.cache
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\test marks out of 100\three test marks hw\three test marks hw\obj\Debug\netcoreapp2.1\three test marks hw.AssemblyInfo.cs
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\test marks out of 100\three test marks hw\three test marks hw\bin\Debug\netcoreapp2.1\three test marks hw.deps.json
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\test marks out of 100\three test marks hw\three test marks hw\bin\Debug\netcoreapp2.1\three test marks hw.runtimeconfig.json
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\test marks out of 100\three test marks hw\three test marks hw\bin\Debug\netcoreapp2.1\three test marks hw.runtimeconfig.dev.json
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\test marks out of 100\three test marks hw\three test marks hw\bin\Debug\netcoreapp2.1\three test marks hw.dll
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\test marks out of 100\three test marks hw\three test marks hw\bin\Debug\netcoreapp2.1\three test marks hw.pdb
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\test marks out of 100\three test marks hw\three test marks hw\obj\Debug\netcoreapp2.1\three test marks hw.dll
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\test marks out of 100\three test marks hw\three test marks hw\obj\Debug\netcoreapp2.1\three test marks hw.pdb

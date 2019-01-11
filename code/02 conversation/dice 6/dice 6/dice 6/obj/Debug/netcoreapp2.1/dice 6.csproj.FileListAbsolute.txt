@@ -1,0 +1,10 @@
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\dice 6\dice 6\dice 6\bin\Debug\netcoreapp2.1\dice 6.deps.json
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\dice 6\dice 6\dice 6\bin\Debug\netcoreapp2.1\dice 6.runtimeconfig.json
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\dice 6\dice 6\dice 6\bin\Debug\netcoreapp2.1\dice 6.runtimeconfig.dev.json
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\dice 6\dice 6\dice 6\bin\Debug\netcoreapp2.1\dice 6.dll
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\dice 6\dice 6\dice 6\bin\Debug\netcoreapp2.1\dice 6.pdb
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\dice 6\dice 6\dice 6\obj\Debug\netcoreapp2.1\dice 6.csproj.CoreCompileInputs.cache
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\dice 6\dice 6\dice 6\obj\Debug\netcoreapp2.1\dice 6.AssemblyInfoInputs.cache
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\dice 6\dice 6\dice 6\obj\Debug\netcoreapp2.1\dice 6.AssemblyInfo.cs
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\dice 6\dice 6\dice 6\obj\Debug\netcoreapp2.1\dice 6.dll
+C:\Users\Student\OneDrive - Hereford Sixth Form College\computer science\code\02 conversation\dice 6\dice 6\dice 6\obj\Debug\netcoreapp2.1\dice 6.pdb

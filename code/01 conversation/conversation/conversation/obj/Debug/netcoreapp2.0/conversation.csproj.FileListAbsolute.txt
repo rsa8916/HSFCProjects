@@ -1,0 +1,11 @@
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\01 conversation\conversation\conversation\bin\Debug\netcoreapp2.0\conversation.deps.json
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\01 conversation\conversation\conversation\bin\Debug\netcoreapp2.0\conversation.runtimeconfig.json
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\01 conversation\conversation\conversation\bin\Debug\netcoreapp2.0\conversation.runtimeconfig.dev.json
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\01 conversation\conversation\conversation\bin\Debug\netcoreapp2.0\conversation.dll
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\01 conversation\conversation\conversation\bin\Debug\netcoreapp2.0\conversation.pdb
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\01 conversation\conversation\conversation\obj\Debug\netcoreapp2.0\conversation.csprojAssemblyReference.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\01 conversation\conversation\conversation\obj\Debug\netcoreapp2.0\conversation.csproj.CoreCompileInputs.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\01 conversation\conversation\conversation\obj\Debug\netcoreapp2.0\conversation.AssemblyInfoInputs.cache
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\01 conversation\conversation\conversation\obj\Debug\netcoreapp2.0\conversation.AssemblyInfo.cs
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\01 conversation\conversation\conversation\obj\Debug\netcoreapp2.0\conversation.dll
+C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\01 conversation\conversation\conversation\obj\Debug\netcoreapp2.0\conversation.pdb
