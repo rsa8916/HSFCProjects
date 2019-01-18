@@ -39,6 +39,7 @@
             this.button9 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.nextPlayName = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -151,15 +152,25 @@
             this.label1.TabIndex = 10;
             this.label1.Text = "Next player is:";
             // 
-            // Form2
+            // nextPlayName
+            // 
+            this.nextPlayName.AutoSize = true;
+            this.nextPlayName.Location = new System.Drawing.Point(151, 412);
+            this.nextPlayName.Name = "nextPlayName";
+            this.nextPlayName.Size = new System.Drawing.Size(0, 13);
+            this.nextPlayName.TabIndex = 11;
+            // 
+            // GameUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.nextPlayName);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
-            this.Name = "Form2";
+            this.Name = "GameUI";
             this.Text = "GameUI";
+            
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -179,5 +190,6 @@
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label nextPlayName;
     }
 }

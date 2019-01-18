@@ -15,16 +15,11 @@ namespace XOX
 
             // We use -1 as this makes win easier to calculate 
 
-            public enum Piece { Nought = -1, Space, Cross };
-
-
+            public enum Piece { Nought = -1, Space, Cross };//allocatng a symbol to each O X
 
             private Piece[,] theBoard = new Piece[3, 3];
 
-
-
             private String[] players = new String[2];
-
 
 
             private int currentPlayer = 0;
@@ -36,35 +31,24 @@ namespace XOX
             // Constructor that starts game 
 
             public OxoGame(String player1, String player2)
-
             {
-
                 players[0] = player1;
-
                 players[1] = player2;
-
             }
-
 
 
             // nextPlayer moves the player to the next one, passing back the name 
 
             public String nextPlayer()
-
             {
-
                 currentPlayer = (currentPlayer + 1) % 2;    // get this? 
-
                 return players[currentPlayer];
-
             }
-
 
 
             // nextPiece returns the piece that makes the next move 
 
             public Piece nextPiece()
-
             {
 
                 if (currentPiece == Piece.Cross)
@@ -80,30 +64,41 @@ namespace XOX
             }
 
 
-
             // makeMove checks that x, y are valid, then if move is valid, makes move 
 
             // 0 returned if all OK 
 
-            // -1 if x and y are invalid 
+            // -1 if x and y are invalid (an actual place on the board)
 
-            // -2 if move cannot be made 
+            // -2 if move cannot be made (if already there is a peice there not space)
 
             public int makeMove(int x, int y, Piece move)
 
             {
 
-                // -THIS NEEDS IMPLEMENTING                ************* 
+            // -THIS NEEDS IMPLEMENTING  ************* 
 
+            if ((x>=0) & (x<=2)& (y>=0) & (y<=2) & (theBoard[x,y] == Piece.Space))
+            {
+                return 0;
+            }
+            if((x<0) || (x>2) || (y<0) || (y>2) || (theBoard [x,y] == Piece.Nought) || (theBoard [x,y] ==Piece.Cross))
+            {
+                return -1;
+            }
+            if((theBoard [x,y] == Piece.Nought) || (theBoard [x,y] == Piece.Cross))
+            {
+                return -2;
+            }
 
+            // check x and y are in range 
+            // now record the move in theBoard 
+            if (currentPlayer == 
+            {
+                theBoard[x, y] == currentPiece;
+            }
 
-                // check x and y are in range 
-
-
-
-                // now record the move in theBoard 
-
-                return 999; // place holder so it compiles 
+            return 999; // place holder so it compiles 
 
             }
 

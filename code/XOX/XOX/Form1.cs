@@ -37,7 +37,7 @@ namespace XOX
         {
             //the user clicks START 
             //collect the two names and pass them into the Game engine
-           myGame = new XOX.GameUI(playerOneName, playerTwoName);
+           myGame = new XOX.GameUI( playerOneName, playerTwoName);
             myGame.Show();
         }
     }

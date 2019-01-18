@@ -13,7 +13,7 @@ namespace XOX
 
     public partial class GameUI : Form
     {
-        public GameUI()//add parameters
+        public GameUI(string playerOneName, string playerTwoName)
         {
             InitializeComponent();
         }
@@ -22,5 +22,7 @@ namespace XOX
         {
 
         }
+
+       
     }
 }
