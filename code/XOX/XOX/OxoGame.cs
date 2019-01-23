@@ -78,9 +78,9 @@ namespace XOX
 
             // -THIS NEEDS IMPLEMENTING  ************* 
 
-            if ((x>=0) & (x<=2)& (y>=0) & (y<=2) & (theBoard[x,y] == Piece.Space))
+            if ((x>=0) & (x<=2)& (y>=0) & (y<=2) & (theBoard[x,y] == Piece.Space)) //checking if where they are asking is on the board
             {
-                return 0;
+                return 0; //location is valid
             }
             if((x<0) || (x>2) || (y<0) || (y>2) || (theBoard [x,y] == Piece.Nought) || (theBoard [x,y] ==Piece.Cross))
             {
@@ -93,9 +93,9 @@ namespace XOX
 
             // check x and y are in range 
             // now record the move in theBoard 
-            if (currentPlayer == 
+            
             {
-                theBoard[x, y] == currentPiece;
+                theBoard[x, y] = currentPiece; //consfused double check
             }
 
             return 999; // place holder so it compiles 

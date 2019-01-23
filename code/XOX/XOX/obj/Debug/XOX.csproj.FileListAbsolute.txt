@@ -9,3 +9,11 @@ C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\XO
 C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\XOX\XOX\obj\Debug\XOX.GameUI.resources
 C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\XOX\XOX\obj\Debug\XOX.exe
 C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\XOX\XOX\obj\Debug\XOX.pdb
+H:\My Documents\computer science\HSFCProjects\code\XOX\XOX\obj\Debug\XOX.csprojAssemblyReference.cache
+H:\My Documents\computer science\HSFCProjects\code\XOX\XOX\obj\Debug\XOX.Form1.resources
+H:\My Documents\computer science\HSFCProjects\code\XOX\XOX\obj\Debug\XOX.GameUI.resources
+H:\My Documents\computer science\HSFCProjects\code\XOX\XOX\obj\Debug\XOX.Properties.Resources.resources
+H:\My Documents\computer science\HSFCProjects\code\XOX\XOX\obj\Debug\XOX.csproj.GenerateResource.cache
+H:\My Documents\computer science\HSFCProjects\code\XOX\XOX\obj\Debug\XOX.csproj.CoreCompileInputs.cache
+H:\My Documents\computer science\HSFCProjects\code\XOX\XOX\obj\Debug\XOX.exe
+H:\My Documents\computer science\HSFCProjects\code\XOX\XOX\obj\Debug\XOX.pdb
