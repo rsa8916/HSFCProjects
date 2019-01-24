@@ -9,8 +9,6 @@ namespace XOX
     class OxoGame
     {
 
-
-
             // Piece define possible pieces on board 
 
             // We use -1 as this makes win easier to calculate 
@@ -26,8 +24,7 @@ namespace XOX
 
             private Piece currentPiece = Piece.Cross;
 
-
-
+            
             // Constructor that starts game 
 
             public OxoGame(String player1, String player2)
@@ -80,11 +77,12 @@ namespace XOX
 
             if ((x>=0) & (x<=2)& (y>=0) & (y<=2) & (theBoard[x,y] == Piece.Space)) //checking if where they are asking is on the board
             {
-                return 0; //location is valid
+                return 0; //location is valid and nothing is there
+                
             }
-            if((x<0) || (x>2) || (y<0) || (y>2) || (theBoard [x,y] == Piece.Nought) || (theBoard [x,y] ==Piece.Cross))
+            if((x<0) || (x>2) || (y<0) || (y>2)) //checking if location is on the board
             {
-                return -1;
+                return -1;//not a place on the board
             }
             if((theBoard [x,y] == Piece.Nought) || (theBoard [x,y] == Piece.Cross))
             {
@@ -93,11 +91,8 @@ namespace XOX
 
             // check x and y are in range 
             // now record the move in theBoard 
-            
-            {
-                theBoard[x, y] = currentPiece; //consfused double check
-            }
 
+            theBoard[x, y] = currentPiece; //consfused double check
             return 999; // place holder so it compiles 
 
             }

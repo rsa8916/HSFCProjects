@@ -40,6 +40,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.nextPlayName = new System.Windows.Forms.Label();
+            this.nameDisplayed = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -160,17 +161,26 @@
             this.nextPlayName.Size = new System.Drawing.Size(0, 13);
             this.nextPlayName.TabIndex = 11;
             // 
+            // nameDisplayed
+            // 
+            this.nameDisplayed.AutoSize = true;
+            this.nameDisplayed.Location = new System.Drawing.Point(157, 412);
+            this.nameDisplayed.Name = "nameDisplayed";
+            this.nameDisplayed.Size = new System.Drawing.Size(0, 13);
+            this.nameDisplayed.TabIndex = 12;
+            // 
             // GameUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.nameDisplayed);
             this.Controls.Add(this.nextPlayName);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Name = "GameUI";
             this.Text = "GameUI";
-            
+            this.Load += new System.EventHandler(this.GameUI_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -191,5 +201,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label nextPlayName;
+        private System.Windows.Forms.Label nameDisplayed;
     }
 }
