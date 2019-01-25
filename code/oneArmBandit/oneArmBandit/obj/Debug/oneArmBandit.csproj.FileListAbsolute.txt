@@ -8,3 +8,13 @@ C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\on
 C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\oneArmBandit\oneArmBandit\bin\Debug\oneArmBandit.pdb
 C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\oneArmBandit\oneArmBandit\obj\Debug\oneArmBandit.exe
 C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\oneArmBandit\oneArmBandit\obj\Debug\oneArmBandit.pdb
+H:\My Documents\computer science\HSFCProjects\code\oneArmBandit\oneArmBandit\bin\Debug\oneArmBandit.exe.config
+H:\My Documents\computer science\HSFCProjects\code\oneArmBandit\oneArmBandit\bin\Debug\oneArmBandit.exe
+H:\My Documents\computer science\HSFCProjects\code\oneArmBandit\oneArmBandit\bin\Debug\oneArmBandit.pdb
+H:\My Documents\computer science\HSFCProjects\code\oneArmBandit\oneArmBandit\obj\Debug\oneArmBandit.csprojAssemblyReference.cache
+H:\My Documents\computer science\HSFCProjects\code\oneArmBandit\oneArmBandit\obj\Debug\oneArmBandit.Form1.resources
+H:\My Documents\computer science\HSFCProjects\code\oneArmBandit\oneArmBandit\obj\Debug\oneArmBandit.Properties.Resources.resources
+H:\My Documents\computer science\HSFCProjects\code\oneArmBandit\oneArmBandit\obj\Debug\oneArmBandit.csproj.GenerateResource.cache
+H:\My Documents\computer science\HSFCProjects\code\oneArmBandit\oneArmBandit\obj\Debug\oneArmBandit.csproj.CoreCompileInputs.cache
+H:\My Documents\computer science\HSFCProjects\code\oneArmBandit\oneArmBandit\obj\Debug\oneArmBandit.exe
+H:\My Documents\computer science\HSFCProjects\code\oneArmBandit\oneArmBandit\obj\Debug\oneArmBandit.pdb

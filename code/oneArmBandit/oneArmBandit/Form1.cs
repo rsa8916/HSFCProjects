@@ -50,43 +50,21 @@ namespace oneArmBandit
             pictureBox1.Image = images[wheel1position];
             pictureBox1.Update();
 
-        
-
-
-
-
         }
-
+        
         private void nudge2_Click(object sender, EventArgs e)//nudge button two
         {
-            Image[] images = { Resources.pup1, Resources.pup2, Resources.pup3, Resources.pup5, Resources.pup6 };
-            
-            
+            wheel2position = ((wheel2position + 1) % images.Length);
+            pictureBox2.Image = images[wheel2position];
+            pictureBox2.Update();
+    
         }
 
         private void nudge3_Click(object sender, EventArgs e)//nudge button three
         {
-            Image[] images = { Resources.pup1, Resources.pup2, Resources.pup3, Resources.pup5, Resources.pup6 };
-            if (pictureBox3.Image == Resources.pup1)
-            {
-                pictureBox3.Image = images[1];
-            }
-            if (pictureBox3.Image == Resources.pup2)
-            {
-                pictureBox3.Image = images[2];
-            }
-            if (pictureBox3.Image == Resources.pup3)
-            {
-                pictureBox3.Image = images[3];
-            }
-            if (pictureBox3.Image == Resources.pup5)
-            {
-                pictureBox3.Image = images[4];
-            }
-            if (pictureBox3.Image == Resources.pup6)
-            {
-                pictureBox3.Image = images[0];
-            }
+            wheel3position = ((wheel3position + 1) % images.Length);
+            pictureBox3.Image = images[wheel3position];
+            pictureBox3.Update();
 
         }
     }
