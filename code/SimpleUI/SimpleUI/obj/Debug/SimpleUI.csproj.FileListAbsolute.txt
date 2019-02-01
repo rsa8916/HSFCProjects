@@ -8,3 +8,13 @@ C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\Si
 C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\SimpleUI\SimpleUI\obj\Debug\SimpleUI.csproj.CoreCompileInputs.cache
 C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\SimpleUI\SimpleUI\obj\Debug\SimpleUI.exe
 C:\Users\rsa8916\OneDrive - Hereford Sixth Form College\computer science\code\SimpleUI\SimpleUI\obj\Debug\SimpleUI.pdb
+H:\My Documents\computer science\HSFCProjects\code\SimpleUI\SimpleUI\bin\Debug\SimpleUI.exe.config
+H:\My Documents\computer science\HSFCProjects\code\SimpleUI\SimpleUI\bin\Debug\SimpleUI.exe
+H:\My Documents\computer science\HSFCProjects\code\SimpleUI\SimpleUI\bin\Debug\SimpleUI.pdb
+H:\My Documents\computer science\HSFCProjects\code\SimpleUI\SimpleUI\obj\Debug\SimpleUI.csprojAssemblyReference.cache
+H:\My Documents\computer science\HSFCProjects\code\SimpleUI\SimpleUI\obj\Debug\SimpleUI.Form1.resources
+H:\My Documents\computer science\HSFCProjects\code\SimpleUI\SimpleUI\obj\Debug\SimpleUI.Properties.Resources.resources
+H:\My Documents\computer science\HSFCProjects\code\SimpleUI\SimpleUI\obj\Debug\SimpleUI.csproj.GenerateResource.cache
+H:\My Documents\computer science\HSFCProjects\code\SimpleUI\SimpleUI\obj\Debug\SimpleUI.csproj.CoreCompileInputs.cache
+H:\My Documents\computer science\HSFCProjects\code\SimpleUI\SimpleUI\obj\Debug\SimpleUI.exe
+H:\My Documents\computer science\HSFCProjects\code\SimpleUI\SimpleUI\obj\Debug\SimpleUI.pdb

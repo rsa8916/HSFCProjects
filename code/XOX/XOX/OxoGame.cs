@@ -88,11 +88,12 @@ namespace XOX
             {
                 return -2;
             }
-            if()
+            
             // check x and y are in range 
             // now record the move in theBoard 
 
-            theBoard[x, y] = currentPiece; //consfused double check
+            theBoard[x, y] = currentPiece; //consfused double check                          <----------- LOOk @
+
             return 999; // place holder so it compiles 
 
             }
@@ -106,6 +107,11 @@ namespace XOX
             {
 
                 // - THIS NEEDS IMPLEMENTING    ************** 
+            if(theBoard [x,y] == [0,0])
+            {
+                button1 = currentPiece;                                                     // WRONGE <-----------
+                return;
+            }
 
 
 
