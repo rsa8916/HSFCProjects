@@ -31,13 +31,8 @@ namespace WindowsFormsApp1
         {                    
             usersGuess = Console.ReadLine();
             
-        }                                      
-                                                                                                                                                           
-                                                                                                 
+        }
 
-                                                                                                                            
-                                    
-                                
     }
                                          
 }
