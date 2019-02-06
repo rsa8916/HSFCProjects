@@ -20,3 +20,11 @@ H:\My Documents\computer science\HSFCProjects\code\XOX\XOX\obj\Debug\XOX.pdb
 H:\My Documents\computer science\HSFCProjects\code\XOX\XOX\bin\Debug\XOX.exe.config
 H:\My Documents\computer science\HSFCProjects\code\XOX\XOX\bin\Debug\XOX.exe
 H:\My Documents\computer science\HSFCProjects\code\XOX\XOX\bin\Debug\XOX.pdb
+\\internal.hereford.ac.uk\student\2018 enrolment\rsa8916\My Documents\computer science\HSFCProjects\code\XOX\XOX\obj\Debug\XOX.csprojAssemblyReference.cache
+\\internal.hereford.ac.uk\student\2018 enrolment\rsa8916\My Documents\computer science\HSFCProjects\code\XOX\XOX\obj\Debug\XOX.Form1.resources
+\\internal.hereford.ac.uk\student\2018 enrolment\rsa8916\My Documents\computer science\HSFCProjects\code\XOX\XOX\obj\Debug\XOX.GameUI.resources
+\\internal.hereford.ac.uk\student\2018 enrolment\rsa8916\My Documents\computer science\HSFCProjects\code\XOX\XOX\obj\Debug\XOX.Properties.Resources.resources
+\\internal.hereford.ac.uk\student\2018 enrolment\rsa8916\My Documents\computer science\HSFCProjects\code\XOX\XOX\obj\Debug\XOX.csproj.GenerateResource.cache
+\\internal.hereford.ac.uk\student\2018 enrolment\rsa8916\My Documents\computer science\HSFCProjects\code\XOX\XOX\obj\Debug\XOX.csproj.CoreCompileInputs.cache
+\\internal.hereford.ac.uk\student\2018 enrolment\rsa8916\My Documents\computer science\HSFCProjects\code\XOX\XOX\obj\Debug\XOX.exe
+\\internal.hereford.ac.uk\student\2018 enrolment\rsa8916\My Documents\computer science\HSFCProjects\code\XOX\XOX\obj\Debug\XOX.pdb

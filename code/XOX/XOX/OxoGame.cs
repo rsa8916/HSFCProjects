@@ -106,8 +106,8 @@ namespace XOX
 
             {
 
-                // - THIS NEEDS IMPLEMENTING    ************** 
-            if(theBoard [x,y] == [0,0])
+            // - THIS NEEDS IMPLEMENTING    ************** 
+            if (theBoard[x, y] == [0, 0])
             {
                 button1 = currentPiece;                                                     // WRONGE <-----------
                 return;
@@ -115,13 +115,13 @@ namespace XOX
 
 
 
-                // check x and y are in range 
+            // check x and y are in range 
 
 
 
-                // passes back the piece at required location 
+            // passes back the piece at required location 
 
-                return Piece.Nought;   // place holder so it compiles 
+            return Piece.Nought;   // place holder so it compiles 
 
             }
 
