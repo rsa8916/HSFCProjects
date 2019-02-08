@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rsa8916\\OneDrive - Hereford Sixth Form College\\computer science\\code\\02 conversation\\fizzBuzzProject\\fizzBuzzProject\\fizzBuzzProject\\fizzBuzzProject.csproj",
+      "projectUniqueName": "\\\\internal.hereford.ac.uk\\student\\2018 enrolment\\rsa8916\\My Documents\\computer science\\HSFCProjects\\code\\02 conversation\\fizzBuzzProject\\fizzBuzzProject\\fizzBuzzProject\\fizzBuzzProject.csproj",
       "projectName": "fizzBuzzProject",
-      "projectPath": "C:\\Users\\rsa8916\\OneDrive - Hereford Sixth Form College\\computer science\\code\\02 conversation\\fizzBuzzProject\\fizzBuzzProject\\fizzBuzzProject\\fizzBuzzProject.csproj",
+      "projectPath": "\\\\internal.hereford.ac.uk\\student\\2018 enrolment\\rsa8916\\My Documents\\computer science\\HSFCProjects\\code\\02 conversation\\fizzBuzzProject\\fizzBuzzProject\\fizzBuzzProject\\fizzBuzzProject.csproj",
       "packagesPath": "C:\\Users\\rsa8916\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rsa8916\\OneDrive - Hereford Sixth Form College\\computer science\\code\\02 conversation\\fizzBuzzProject\\fizzBuzzProject\\fizzBuzzProject\\obj\\",
+      "outputPath": "\\\\internal.hereford.ac.uk\\student\\2018 enrolment\\rsa8916\\My Documents\\computer science\\HSFCProjects\\code\\02 conversation\\fizzBuzzProject\\fizzBuzzProject\\fizzBuzzProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
