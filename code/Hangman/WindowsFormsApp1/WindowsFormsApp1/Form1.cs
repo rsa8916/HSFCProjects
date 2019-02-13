@@ -28,7 +28,7 @@ namespace WindowsFormsApp1
         string usersGuess;
         int length;
         int positionInBank;
-        int positionInWord =0 ;
+        int PositionInWord ;
         
         private void LetterGuessedBox_TextChanged(object sender, EventArgs e)
         {
@@ -46,20 +46,38 @@ namespace WindowsFormsApp1
         
             
        //checking each letter of the random word. Searching for the same letter.
-       public int positionInWord()
+       public int PositionInWord()
         {
             length = wordToGuess.Length;
             //put in repeating thing for the entirety of length 
-        
+       
             for (int positionInWord = 0; positionInWord < length; positionInWord++)
             {
-                if (usersGuess == wordToGuess.Substring(0, positionInWord))
+                if (usersGuess == wordToGuess.Substring(positionInWord))
                 {
-                    return positionInWord;
+                    return positionInWord;//returning 
                 }
+                
+                else
+                {
+                   lives = lives - 1;
+                    if (lives == 0)
+                    {
+                        win = false;//DEAD
+                        
+                    }
+                    return -1; //error code
+
+                }
+               
             }
-            //allocating every letter to a positon
             
+        }
+        //detect a win
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
                                          
