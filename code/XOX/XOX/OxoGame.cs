@@ -9,8 +9,6 @@ namespace XOX
     class OxoGame
     {
 
-
-
             // Piece define possible pieces on board 
 
             // We use -1 as this makes win easier to calculate 
@@ -26,8 +24,7 @@ namespace XOX
 
             private Piece currentPiece = Piece.Cross;
 
-
-
+            
             // Constructor that starts game 
 
             public OxoGame(String player1, String player2)
@@ -78,25 +75,24 @@ namespace XOX
 
             // -THIS NEEDS IMPLEMENTING  ************* 
 
-            if ((x>=0) & (x<=2)& (y>=0) & (y<=2) & (theBoard[x,y] == Piece.Space))
+            if ((x>=0) & (x<=2)& (y>=0) & (y<=2) & (theBoard[x,y] == Piece.Space)) //checking if where they are asking is on the board
             {
-                return 0;
+                return 0; //location is valid and nothing is there
+                
             }
-            if((x<0) || (x>2) || (y<0) || (y>2) || (theBoard [x,y] == Piece.Nought) || (theBoard [x,y] ==Piece.Cross))
+            if((x<0) || (x>2) || (y<0) || (y>2)) //checking if location is on the board
             {
-                return -1;
+                return -1;//not a place on the board
             }
             if((theBoard [x,y] == Piece.Nought) || (theBoard [x,y] == Piece.Cross))
             {
                 return -2;
             }
-
+            
             // check x and y are in range 
             // now record the move in theBoard 
-            if (currentPlayer == 
-            {
-                theBoard[x, y] == currentPiece;
-            }
+
+            theBoard[x, y] = currentPiece; //consfused double check                          <----------- LOOk @
 
             return 999; // place holder so it compiles 
 
@@ -110,17 +106,22 @@ namespace XOX
 
             {
 
-                // - THIS NEEDS IMPLEMENTING    ************** 
+            // - THIS NEEDS IMPLEMENTING    ************** 
+            if (theBoard[x, y] == [0, 0])
+            {
+                button1 = currentPiece;                                                     // WRONGE <-----------
+                return;
+            }
 
 
 
-                // check x and y are in range 
+            // check x and y are in range 
 
 
 
-                // passes back the piece at required location 
+            // passes back the piece at required location 
 
-                return Piece.Nought;   // place holder so it compiles 
+            return Piece.Nought;   // place holder so it compiles 
 
             }
 

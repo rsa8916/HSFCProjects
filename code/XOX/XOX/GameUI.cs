@@ -23,6 +23,12 @@ namespace XOX
 
         }
 
-       
+        private void GameUI_Load(object sender, EventArgs e)
+        {
+            if()
+            {
+                return playerOneName;
+            }
+        }
     }
 }
