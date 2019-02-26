@@ -97,16 +97,23 @@ namespace WindowsFormsApp1
         //displaying the word (the bits gusssed correct)
         private void WordBox_TextChanged(object sender, EventArgs e)
         {
-
+            WordBox.Text = letterGuessedCorrect.2String();
         }
         //myTetxBox.text = lettersGussed correct.2String()
         //dispaly amount of lives remaining
+        // if((letterGuessedCorrect.Length <= wordToGuess.Length) | (lives > 0))
+            {
+                //i need to display the letters guessed correctly in the order that they are presented in the wore to guess.
+              //  if (wordToGuess.Substring(0) == letterGuessedCorrect(0,1)
+       // {
 
+       // }
+    ///
+    //}
 
-
-        //getting the users choice
-        //assinging the users choice
-        private void button1_Click(object sender, EventArgs e)//A
+    //getting the users choice
+    //assinging the users choice
+    private void button1_Click(object sender, EventArgs e)//A
         {
             usersGuess = "A" ;
         }
