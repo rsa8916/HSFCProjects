@@ -97,9 +97,9 @@ namespace WindowsFormsApp1
         //displaying the word (the bits gusssed correct)
         private void WordBox_TextChanged(object sender, EventArgs e)
         {
-
+            WordBox.Text = letterGuessedCorrect.ToString();
         }
-        //myTetxBox.text = lettersGussed correct.2String()
+        //myTetxBox.text = lettersGussed correct.toString()
         //dispaly amount of lives remaining
 
 
