@@ -22,8 +22,8 @@ namespace WindowsFormsApp1
         string wordToGuess = "";
         int lives = 5;
         bool win = false;
-        string lettersRevealed = "";
-        string letteresGuessed = "";
+        int orderInWord;
+        int orderInStringBuilder;
         string usersGuess;
         int positionInBank;
         int PositionInWord;
@@ -52,12 +52,12 @@ namespace WindowsFormsApp1
             length = wordToGuess.Length;
             //put in repeating thing for the entirety of length 
 
-            for (int positionInWord = 0; positionInWord < length; positionInWord++)
+            for (int PositionInWord = 0; PositionInWord < length; PositionInWord++)
             {
-                if (usersGuess == wordToGuess.Substring(positionInWord))
+                if (usersGuess == wordToGuess.Substring(PositionInWord))
                 {
 
-                    return positionInWord;//returning 
+                    return PositionInWord;//returning 
 
                 }
                 
@@ -97,6 +97,15 @@ namespace WindowsFormsApp1
         //displaying the word (the bits gusssed correct)
         private void WordBox_TextChanged(object sender, EventArgs e)
         {
+            for(int orderInWord = 0; orderInWord < length; orderInWord++)
+            {
+                // ordrering the chars in the builder to the order in the word with the spaces...
+               if( wordToGuess.Substring(orderInWord) == letterGuessedCorrect.Substring(orderInStringBuilder))
+                {
+                    orderInStringBuilder++;
+
+                }
+            }
             WordBox.Text = letterGuessedCorrect.ToString();
         }
         //myTetxBox.text = lettersGussed correct.toString()
