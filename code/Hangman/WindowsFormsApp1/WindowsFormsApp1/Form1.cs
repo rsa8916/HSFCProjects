@@ -58,7 +58,7 @@ namespace WindowsFormsApp1
                 {
 
                     return PositionInWord;//returning 
-
+                    letterGuessedCorrect[PositionInWord] = usersGuess;
                 }
                 
                 else
@@ -114,6 +114,7 @@ namespace WindowsFormsApp1
         }
         
         //dispaly amount of lives remaining
+
         // if((letterGuessedCorrect.Length <= wordToGuess.Length) | (lives > 0))
             {
                 //i need to display the letters guessed correctly in the order that they are presented in the wore to guess.
