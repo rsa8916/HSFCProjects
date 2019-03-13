@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.BUTTON = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -52,11 +53,23 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Under Development";
             // 
+            // BUTTON
+            // 
+            this.BUTTON.Location = new System.Drawing.Point(82, 158);
+            this.BUTTON.Name = "BUTTON";
+            this.BUTTON.Size = new System.Drawing.Size(99, 44);
+            this.BUTTON.TabIndex = 2;
+            this.BUTTON.Text = "PUSH";
+            this.BUTTON.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BUTTON.UseVisualStyleBackColor = true;
+            this.BUTTON.Click += new System.EventHandler(this.BUTTON_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.BUTTON);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -71,6 +84,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button BUTTON;
     }
 }
 
