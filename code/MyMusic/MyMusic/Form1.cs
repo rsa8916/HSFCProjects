@@ -13,7 +13,9 @@ namespace MyMusic
     
     public partial class Form1 : Form
     {
+
         private mainCollecion music;
+        
 
         public Form1()
         {
@@ -22,14 +24,17 @@ namespace MyMusic
       
         private void studentsUserName_TextChanged(object sender, EventArgs e)
         {
-     
+            stuendentsUserName.Text == 
         }
 
         private void loginButton_Click(object sender, EventArgs e)
         {
+
             music = new mainCollecion();
             music.Show();
+
             
         }
+        Student Rose = new Student();
     }
 }
