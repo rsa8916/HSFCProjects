@@ -5,8 +5,10 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace MyMusic
 {
@@ -14,8 +16,8 @@ namespace MyMusic
     public partial class Form1 : Form
     {
 
-        private mainCollecion music;
-        
+        private mainCollecion music; //need this to create a object aka a button to open a new form
+        private String name;
 
         public Form1()
         {
@@ -24,17 +26,21 @@ namespace MyMusic
       
         private void studentsUserName_TextChanged(object sender, EventArgs e)
         {
-            stuendentsUserName.Text == 
+            //need to store the users name
+            name = studentsUserName.Text;
+            //and check if they are the on the 'system'
+            
         }
 
         private void loginButton_Click(object sender, EventArgs e)
         {
-
+            //opening a new form aka main collection
             music = new mainCollecion();
             music.Show();
 
             
         }
+        //this creates a new student but its proberly in the wronge place
         Student Rose = new Student();
     }
 }

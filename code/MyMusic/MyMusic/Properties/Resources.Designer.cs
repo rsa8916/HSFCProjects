@@ -61,6 +61,29 @@ namespace MyMusic.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to someone you loved - Lewis Capaldi
+        ///giant - Calvin Harris &amp; Rag&apos;N&apos;Bone Man
+        ///dont call me up - Mabel
+        ///break up with your girlfriend im bored - Ariana Grande
+        ///dancing with a stranger - Sam SMith &amp; Naormani
+        ///7 rings - Ariana Grande
+        ///sucker - Jonas brothers
+        ///disaster - Dave ft Hus
+        ///streatham - Dave
+        ///just you and i - Tom Walker
+        ///location - Dave ft Burna Boy
+        ///walk me home - Pink
+        ///im so tierd - Lauva&amp; Troy Sivan
+        ///options - NSG ft Tion Wayne
+        ///.
+        /// </summary>
+        internal static string music {
+            get {
+                return ResourceManager.GetString("music", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap spotify_logo {
