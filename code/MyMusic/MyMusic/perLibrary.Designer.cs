@@ -50,7 +50,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
             this.Name = "perLibrary";
-            this.Text = "perLibrary";
+            this.Text = "personalLibrary";
             this.ResumeLayout(false);
             this.PerformLayout();
 

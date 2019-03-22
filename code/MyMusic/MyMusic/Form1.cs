@@ -10,9 +10,11 @@ using System.Windows.Forms;
 
 namespace MyMusic
 {
-    private MainCollection myCollection;
+    
     public partial class Form1 : Form
     {
+        private mainCollecion music;
+
         public Form1()
         {
             InitializeComponent();
@@ -25,10 +27,9 @@ namespace MyMusic
 
         private void loginButton_Click(object sender, EventArgs e)
         {
-            Form = new MyMusic.mainCollecion(studentsUserName);
-            Form.Show();
-            //myGame = new XOX.GameUI( playerOneName, playerTwoName);
-           // myGame.Show();
+            music = new mainCollecion();
+            music.Show();
+            
         }
     }
 }

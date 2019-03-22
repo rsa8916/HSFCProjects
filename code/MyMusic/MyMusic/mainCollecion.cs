@@ -12,9 +12,16 @@ namespace MyMusic
 {
     public partial class mainCollecion : Form
     {
+        private perLibrary songs;
         public mainCollecion()
         {
             InitializeComponent();
+        }
+
+        private void goToLibrary_Click(object sender, EventArgs e)
+        {
+            songs = new perLibrary();
+            songs.Show();
         }
     }
 }

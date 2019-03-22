@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.goToLibrary = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -46,16 +46,17 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "MAIN MUSIC";
             // 
-            // button1
+            // goToLibrary
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(215)))), ((int)(((byte)(96)))));
-            this.button1.Location = new System.Drawing.Point(574, 402);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(214, 36);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "GO TO MY LIBRARY";
-            this.button1.UseVisualStyleBackColor = true;
+            this.goToLibrary.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.goToLibrary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(215)))), ((int)(((byte)(96)))));
+            this.goToLibrary.Location = new System.Drawing.Point(574, 402);
+            this.goToLibrary.Name = "goToLibrary";
+            this.goToLibrary.Size = new System.Drawing.Size(214, 36);
+            this.goToLibrary.TabIndex = 1;
+            this.goToLibrary.Text = "GO TO MY LIBRARY";
+            this.goToLibrary.UseVisualStyleBackColor = true;
+            this.goToLibrary.Click += new System.EventHandler(this.goToLibrary_Click);
             // 
             // pictureBox1
             // 
@@ -84,7 +85,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.goToLibrary);
             this.Controls.Add(this.label1);
             this.Name = "mainCollecion";
             this.Text = "mainCollecion";
@@ -97,7 +98,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button goToLibrary;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
     }
