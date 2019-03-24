@@ -34,8 +34,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textFileBox = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.stuName = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -100,18 +101,6 @@
             this.panel1.Size = new System.Drawing.Size(298, 201);
             this.panel1.TabIndex = 5;
             // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(215)))), ((int)(((byte)(96)))));
-            this.checkBox1.Location = new System.Drawing.Point(3, 3);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(192, 17);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "someone you loved - Lewis Capaldi";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
-            // 
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
@@ -122,12 +111,35 @@
             this.checkBox2.Text = "checkBox2";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(215)))), ((int)(((byte)(96)))));
+            this.checkBox1.Location = new System.Drawing.Point(3, 3);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(192, 17);
+            this.checkBox1.TabIndex = 0;
+            this.checkBox1.Text = "someone you loved - Lewis Capaldi";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // stuName
+            // 
+            this.stuName.AutoSize = true;
+            this.stuName.ForeColor = System.Drawing.SystemColors.Control;
+            this.stuName.Location = new System.Drawing.Point(323, 25);
+            this.stuName.Name = "stuName";
+            this.stuName.Size = new System.Drawing.Size(35, 13);
+            this.stuName.TabIndex = 6;
+            this.stuName.Text = "label3";
+            this.stuName.Click += new System.EventHandler(this.stuName_Click);
+            // 
             // mainCollecion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.stuName);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.textFileBox);
             this.Controls.Add(this.label2);
@@ -136,6 +148,7 @@
             this.Controls.Add(this.label1);
             this.Name = "mainCollecion";
             this.Text = "mainCollecion";
+            this.Load += new System.EventHandler(this.mainCollecion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -154,5 +167,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Label stuName;
     }
 }

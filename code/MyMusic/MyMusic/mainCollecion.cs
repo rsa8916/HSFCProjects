@@ -15,7 +15,7 @@ namespace MyMusic
     public partial class mainCollecion : Form
     {
         //need to create an array of all the tracks.
-        String[] Tracks = { Resources.music};//an array that hold the text file of all the tracks <---------   I think is right
+        String[] Tracks = { Resources.music };//an array that hold the text file of all the tracks <---------   I think is right
         private perLibrary songs;
         public mainCollecion()
         {
@@ -32,10 +32,10 @@ namespace MyMusic
         {
             //this is what i did on text files
             //im trying to get the textFileBox to display the music in resources
-            textFileBox = Tracks.DisplayResources();
+            //  textFileBox = Tracks.DisplayResources();
             textFileBox.Update();
 
-           // a idea... textFileBox.Text = File.ReadAllText(music);
+            // a idea... textFileBox.Text = File.ReadAllText(music);
             // this is all on TEXT FILES that Mark did
             //  string fileContent = Resources.music;
 
@@ -57,7 +57,18 @@ namespace MyMusic
 
         }
 
-        
+        private void mainCollecion_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void stuName_Click(object sender, EventArgs e)
+        {
+
+            stuName.Text = ("name");
+        }
+
     }
-    }
+}
+    
 

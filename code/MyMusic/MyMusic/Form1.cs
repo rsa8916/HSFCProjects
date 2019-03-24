@@ -17,8 +17,8 @@ namespace MyMusic
     {
 
         private mainCollecion music; //need this to create a object aka a button to open a new form
-        private String name;
-
+        public String name;
+        
         public Form1()
         {
             InitializeComponent();
@@ -28,10 +28,18 @@ namespace MyMusic
         {
             //need to store the users name
             name = studentsUserName.Text;
+           
             //and check if they are the on the 'system'
-            
-        }
 
+        }
+        public void setName(String name)
+        {
+            this.Name = name;
+        } 
+        public String getName()
+        {
+            return name;
+        }
         private void loginButton_Click(object sender, EventArgs e)
         {
             //opening a new form aka main collection
