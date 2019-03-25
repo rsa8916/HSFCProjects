@@ -12,11 +12,15 @@ using System.Windows.Forms;
 
 namespace MyMusic
 {
+   
     public partial class mainCollecion : Form
     {
         //need to create an array of all the tracks.
-        String[] Tracks = { Resources.music };//an array that hold the text file of all the tracks <---------   I think is right
+        String[] Tracks = { "someone you loved - Lewis Capaldi", "giant - Calvin Harris & Rag'N'Bone Man", "dont call me up - Mabel", "break up with your girlfriend im bored - Ariana Grande", "dancing with a stranger - Sam SMith & Naormani", "7 rings - Ariana Grande ", "sucker - Jonas brothers ", "disaster - Dave ft Hus", " streatham - Dave", " just you and i - Tom Walker", " location - Dave ft Burna Boy", " walk me home - Pink ", "im so tierd - Lauva& Troy Sivan", " options - NSG ft Tion Wayne" };
+
+//an array that hold the text file of all the tracks <---------   I think is right
         private perLibrary songs;
+        public String name;
         public mainCollecion()
         {
             InitializeComponent();
@@ -64,10 +68,10 @@ namespace MyMusic
 
         private void stuName_Click(object sender, EventArgs e)
         {
-
-            stuName.Text = ("name");
+            stuName.Text = name;
         }
 
+       
     }
 }
     
