@@ -20,7 +20,7 @@ namespace MyMusic
 
 //an array that hold the text file of all the tracks <---------   I think is right
         private perLibrary songs;
-        public String name;
+        
         public mainCollecion()
         {
             InitializeComponent();
@@ -37,7 +37,7 @@ namespace MyMusic
             //this is what i did on text files
             //im trying to get the textFileBox to display the music in resources
             //  textFileBox = Tracks.DisplayResources();
-            textFileBox.Update();
+           // textFileBox.Update();
 
             // a idea... textFileBox.Text = File.ReadAllText(music);
             // this is all on TEXT FILES that Mark did

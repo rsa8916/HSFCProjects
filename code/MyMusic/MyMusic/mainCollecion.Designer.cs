@@ -48,6 +48,7 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.stuName = new System.Windows.Forms.Label();
+            this.checkBox15 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -99,6 +100,7 @@
             this.panel1.Controls.Add(this.checkBox14);
             this.panel1.Controls.Add(this.checkBox13);
             this.panel1.Controls.Add(this.checkBox12);
+            this.panel1.Controls.Add(this.checkBox15);
             this.panel1.Controls.Add(this.checkBox11);
             this.panel1.Controls.Add(this.checkBox10);
             this.panel1.Controls.Add(this.checkBox9);
@@ -132,7 +134,7 @@
             this.checkBox13.AutoSize = true;
             this.checkBox13.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.checkBox13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(215)))), ((int)(((byte)(96)))));
-            this.checkBox13.Location = new System.Drawing.Point(1, 276);
+            this.checkBox13.Location = new System.Drawing.Point(3, 276);
             this.checkBox13.Name = "checkBox13";
             this.checkBox13.Size = new System.Drawing.Size(166, 17);
             this.checkBox13.TabIndex = 12;
@@ -144,7 +146,7 @@
             this.checkBox12.AutoSize = true;
             this.checkBox12.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.checkBox12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(215)))), ((int)(((byte)(96)))));
-            this.checkBox12.Location = new System.Drawing.Point(1, 253);
+            this.checkBox12.Location = new System.Drawing.Point(3, 253);
             this.checkBox12.Name = "checkBox12";
             this.checkBox12.Size = new System.Drawing.Size(124, 17);
             this.checkBox12.TabIndex = 11;
@@ -156,7 +158,7 @@
             this.checkBox11.AutoSize = true;
             this.checkBox11.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.checkBox11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(215)))), ((int)(((byte)(96)))));
-            this.checkBox11.Location = new System.Drawing.Point(0, 230);
+            this.checkBox11.Location = new System.Drawing.Point(9, 233);
             this.checkBox11.Name = "checkBox11";
             this.checkBox11.Size = new System.Drawing.Size(159, 17);
             this.checkBox11.TabIndex = 10;
@@ -168,7 +170,7 @@
             this.checkBox10.AutoSize = true;
             this.checkBox10.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.checkBox10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(215)))), ((int)(((byte)(96)))));
-            this.checkBox10.Location = new System.Drawing.Point(-1, 210);
+            this.checkBox10.Location = new System.Drawing.Point(3, 210);
             this.checkBox10.Name = "checkBox10";
             this.checkBox10.Size = new System.Drawing.Size(155, 17);
             this.checkBox10.TabIndex = 9;
@@ -192,7 +194,7 @@
             this.checkBox8.AutoSize = true;
             this.checkBox8.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.checkBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(215)))), ((int)(((byte)(96)))));
-            this.checkBox8.Location = new System.Drawing.Point(-1, 164);
+            this.checkBox8.Location = new System.Drawing.Point(3, 164);
             this.checkBox8.Name = "checkBox8";
             this.checkBox8.Size = new System.Drawing.Size(128, 17);
             this.checkBox8.TabIndex = 7;
@@ -204,7 +206,7 @@
             this.checkBox7.AutoSize = true;
             this.checkBox7.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.checkBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(215)))), ((int)(((byte)(96)))));
-            this.checkBox7.Location = new System.Drawing.Point(1, 141);
+            this.checkBox7.Location = new System.Drawing.Point(3, 141);
             this.checkBox7.Name = "checkBox7";
             this.checkBox7.Size = new System.Drawing.Size(136, 17);
             this.checkBox7.TabIndex = 6;
@@ -293,6 +295,18 @@
             this.stuName.Text = "label3";
             this.stuName.Click += new System.EventHandler(this.stuName_Click);
             // 
+            // checkBox15
+            // 
+            this.checkBox15.AutoSize = true;
+            this.checkBox15.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.checkBox15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(215)))), ((int)(((byte)(96)))));
+            this.checkBox15.Location = new System.Drawing.Point(3, 230);
+            this.checkBox15.Name = "checkBox15";
+            this.checkBox15.Size = new System.Drawing.Size(159, 17);
+            this.checkBox15.TabIndex = 10;
+            this.checkBox15.Text = "location - Dave ft Burna Boy";
+            this.checkBox15.UseVisualStyleBackColor = false;
+            // 
             // mainCollecion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -338,5 +352,6 @@
         private System.Windows.Forms.CheckBox checkBox14;
         private System.Windows.Forms.CheckBox checkBox13;
         private System.Windows.Forms.CheckBox checkBox12;
+        private System.Windows.Forms.CheckBox checkBox15;
     }
 }

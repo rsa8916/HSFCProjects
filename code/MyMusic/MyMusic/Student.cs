@@ -8,13 +8,13 @@ namespace MyMusic
 {
     class Student
     {
-        String[] names = new String[] { "Rose", "Serena", "Hannah" };
+        String[] names = new String[3];
         private string name; // every student has a name
      //   private String[] myCollection = new String[];//every student has there own collection of music
 
-        public Student()//a class constructor method to set defaukt values for all its vaiable members
+        public Student(String aName)//a class constructor method to set defaukt values for all its vaiable members
         {
-          
+            name = aName;
 
         }
       // inserting setter methods for each variable member

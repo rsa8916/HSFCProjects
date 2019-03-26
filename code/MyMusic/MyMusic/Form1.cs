@@ -49,6 +49,6 @@ namespace MyMusic
             
         }
         //this creates a new student but its proberly in the wronge place
-        Student Rose = new Student();
+        
     }
 }
