@@ -36,6 +36,7 @@
             this.checkBox14 = new System.Windows.Forms.CheckBox();
             this.checkBox13 = new System.Windows.Forms.CheckBox();
             this.checkBox12 = new System.Windows.Forms.CheckBox();
+            this.checkBox15 = new System.Windows.Forms.CheckBox();
             this.checkBox11 = new System.Windows.Forms.CheckBox();
             this.checkBox10 = new System.Windows.Forms.CheckBox();
             this.checkBox9 = new System.Windows.Forms.CheckBox();
@@ -48,7 +49,6 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.stuName = new System.Windows.Forms.Label();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -152,6 +152,18 @@
             this.checkBox12.TabIndex = 11;
             this.checkBox12.Text = "walk me home - Pink";
             this.checkBox12.UseVisualStyleBackColor = false;
+            // 
+            // checkBox15
+            // 
+            this.checkBox15.AutoSize = true;
+            this.checkBox15.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.checkBox15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(215)))), ((int)(((byte)(96)))));
+            this.checkBox15.Location = new System.Drawing.Point(3, 230);
+            this.checkBox15.Name = "checkBox15";
+            this.checkBox15.Size = new System.Drawing.Size(159, 17);
+            this.checkBox15.TabIndex = 10;
+            this.checkBox15.Text = "location - Dave ft Burna Boy";
+            this.checkBox15.UseVisualStyleBackColor = false;
             // 
             // checkBox11
             // 
@@ -271,6 +283,7 @@
             this.checkBox2.TabIndex = 1;
             this.checkBox2.Text = "giant - Calvin Harris & Rag\'N\'Bone Man";
             this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // checkBox1
             // 
@@ -282,30 +295,19 @@
             this.checkBox1.TabIndex = 0;
             this.checkBox1.Text = "someone you loved - Lewis Capaldi";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // stuName
             // 
             this.stuName.AutoSize = true;
             this.stuName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.stuName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(215)))), ((int)(((byte)(96)))));
-            this.stuName.Location = new System.Drawing.Point(155, 11);
+            this.stuName.Location = new System.Drawing.Point(160, 35);
             this.stuName.Name = "stuName";
             this.stuName.Size = new System.Drawing.Size(57, 20);
             this.stuName.TabIndex = 6;
             this.stuName.Text = "label3";
             this.stuName.Click += new System.EventHandler(this.stuName_Click);
-            // 
-            // checkBox15
-            // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.checkBox15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(215)))), ((int)(((byte)(96)))));
-            this.checkBox15.Location = new System.Drawing.Point(3, 230);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(159, 17);
-            this.checkBox15.TabIndex = 10;
-            this.checkBox15.Text = "location - Dave ft Burna Boy";
-            this.checkBox15.UseVisualStyleBackColor = false;
             // 
             // mainCollecion
             // 

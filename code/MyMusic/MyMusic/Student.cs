@@ -8,10 +8,22 @@ namespace MyMusic
 {
     public class Student //make public
     {
-        String[] names = new String[3];//three names of differetn names
+        String[] names = new String[3];//three names of different names
         public string name; // every student has a name <------Probs dont need
         private String[] myCollection = new String[14];//every student has there own collection of music up to 14 tracks casue thats the max amountss of tracks
 
+        public Student(String[] songs)
+        {
+            myCollection = songs;
+        }
+        public void setMyCollection(String[] myCOllection)
+        {
+           // i think somehting has to go there <----------------
+        }
+        public String[] getMyCOllection()
+        {
+            return myCollection;
+        }
         public Student(String aName)//a class constructor method to set default values for all its vaiable members
         {
             name = aName;

@@ -29,7 +29,8 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxSongs = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -43,13 +44,26 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "MY MUSIC";
             // 
-            // textBox1
+            // textBoxSongs
             // 
-            this.textBox1.Location = new System.Drawing.Point(141, 112);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(369, 299);
-            this.textBox1.TabIndex = 1;
+            this.textBoxSongs.Location = new System.Drawing.Point(152, 97);
+            this.textBoxSongs.Multiline = true;
+            this.textBoxSongs.Name = "textBoxSongs";
+            this.textBoxSongs.Size = new System.Drawing.Size(369, 299);
+            this.textBoxSongs.TabIndex = 1;
+            this.textBoxSongs.TextChanged += new System.EventHandler(this.textBoxSongs_TextChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(215)))), ((int)(((byte)(96)))));
+            this.label2.Location = new System.Drawing.Point(229, 43);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(57, 20);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "label2";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // perLibrary
             // 
@@ -57,10 +71,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBoxSongs);
             this.Controls.Add(this.label1);
             this.Name = "perLibrary";
             this.Text = "personalLibrary";
+            this.Load += new System.EventHandler(this.perLibrary_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -69,6 +85,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxSongs;
+        private System.Windows.Forms.Label label2;
     }
 }
