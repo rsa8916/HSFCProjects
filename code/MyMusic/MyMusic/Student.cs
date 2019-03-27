@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace MyMusic
 {
-    class Student
+    public class Student //make public
     {
-        String[] names = new String[3];
-        private string name; // every student has a name
-     //   private String[] myCollection = new String[];//every student has there own collection of music
+        String[] names = new String[3];//three names of differetn names
+        public string name; // every student has a name <------Probs dont need
+        private String[] myCollection = new String[14];//every student has there own collection of music up to 14 tracks casue thats the max amountss of tracks
 
-        public Student(String aName)//a class constructor method to set defaukt values for all its vaiable members
+        public Student(String aName)//a class constructor method to set default values for all its vaiable members
         {
             name = aName;
 
         }
       // inserting setter methods for each variable member
-      public void setName(string name)
+      public void setName(String name)
       {
             this.name = name;
       }

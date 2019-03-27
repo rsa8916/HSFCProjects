@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace MyMusic
 {
-    class Students 
+   public class Students //make [ublic
     {
         Student p1 = new Student("Rose");
+     
+
 
     }
 }
