@@ -19,7 +19,7 @@ namespace MyMusic
         String[] Tracks = { "someone you loved - Lewis Capaldi", "giant - Calvin Harris & Rag'N'Bone Man", "dont call me up - Mabel", "break up with your girlfriend im bored - Ariana Grande", "dancing with a stranger - Sam SMith & Naormani", "7 rings - Ariana Grande ", "sucker - Jonas brothers ", "disaster - Dave ft Hus", " streatham - Dave", " just you and i - Tom Walker", " location - Dave ft Burna Boy", " walk me home - Pink ", "im so tierd - Lauva& Troy Sivan", " options - NSG ft Tion Wayne" };
         private Student currentStudent;
         private perLibrary songs;
-        String[] userSong;
+         String[] userSong;
         
 
 
@@ -51,7 +51,7 @@ namespace MyMusic
         {
 
             stuName.Text = currentStudent.getName(); //displays name enterd by user
-            
+            currentStudent.setName(stuName.Text);
         }
 
         private void stuName_Click(object sender, EventArgs e)

@@ -14,22 +14,23 @@ namespace MyMusic
     {
         private Student nowStudent;
         int i = 0;
-        public String nowArray[];//??????
+        String[] Tracks = { "someone you loved - Lewis Capaldi", "giant - Calvin Harris & Rag'N'Bone Man", "dont call me up - Mabel", "break up with your girlfriend im bored - Ariana Grande", "dancing with a stranger - Sam SMith & Naormani", "7 rings - Ariana Grande ", "sucker - Jonas brothers ", "disaster - Dave ft Hus", " streatham - Dave", " just you and i - Tom Walker", " location - Dave ft Burna Boy", " walk me home - Pink ", "im so tierd - Lauva& Troy Sivan", " options - NSG ft Tion Wayne" };
         public perLibrary(Student aPerson)
         {
-            nowArray[] = aPerson.getMyCOllection();
             nowStudent = aPerson;
             InitializeComponent();
         }
-        public override String ToString()//<-----override thing
-        {
-            return nowStudent.getMyCollection;
-        }
+        
         private void textBoxSongs_TextChanged(object sender, EventArgs e)
         {
             //a for loop for the array printing out th e each string in differnt lines :)
            // textBoxSongs.Text = nowStudent.getMyCOllection();// doesnt work needs the array to be split up into seperate arrays
-
+          for (int i = 0; i<14;  i++)//for (initializer; test-exspression; updater)
+            {
+                //now put in statements
+                textBoxSongs.Text = nowStudent.getMyCOllection[i];
+                
+            }
         }
 
         private void perLibrary_Load(object sender, EventArgs e)

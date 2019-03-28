@@ -300,11 +300,11 @@
             // stuName
             // 
             this.stuName.AutoSize = true;
-            this.stuName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stuName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.stuName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(215)))), ((int)(((byte)(96)))));
-            this.stuName.Location = new System.Drawing.Point(160, 35);
+            this.stuName.Location = new System.Drawing.Point(197, 38);
             this.stuName.Name = "stuName";
-            this.stuName.Size = new System.Drawing.Size(57, 20);
+            this.stuName.Size = new System.Drawing.Size(76, 25);
             this.stuName.TabIndex = 6;
             this.stuName.Text = "label3";
             this.stuName.Click += new System.EventHandler(this.stuName_Click);
