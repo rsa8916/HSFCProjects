@@ -27,7 +27,6 @@ namespace MyMusic
       
         private void studentsUserName_TextChanged(object sender, EventArgs e)
         {
-        
         }
         
         private void loginButton_Click(object sender, EventArgs e)

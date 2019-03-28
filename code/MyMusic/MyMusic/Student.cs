@@ -16,14 +16,15 @@ namespace MyMusic
         {
             myCollection = songs;
         }
-        public void setMyCollection(String[] myCOllection)
-        {
-           // i think somehting has to go there <----------------
-        }
         public String[] getMyCOllection()
         {
             return myCollection;
         }
+        public void setMyCollection(String[] myCOllection)
+        {
+            this.myCollection[14] = myCollection[14];
+        }
+       
         public Student(String aName)//a class constructor method to set default values for all its vaiable members
         {
             name = aName;

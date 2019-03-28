@@ -10,8 +10,7 @@ namespace MyMusic
     {
        
         Student p1 = new Student("ann");// i dont think i need...
-        
-
-
+        //need too have for every students has there own playlist
+         String[] myPlaylist = new String[14];
     }
 }
