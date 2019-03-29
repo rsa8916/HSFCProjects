@@ -116,7 +116,7 @@ namespace WindowsFormsApp1
         //dispaly amount of lives remaining
 
         // if((letterGuessedCorrect.Length <= wordToGuess.Length) | (lives > 0))
-            {
+           // {
                 //i need to display the letters guessed correctly in the order that they are presented in the wore to guess.
               //  if (wordToGuess.Substring(0) == letterGuessedCorrect(0,1)
        // {

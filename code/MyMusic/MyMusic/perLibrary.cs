@@ -14,21 +14,32 @@ namespace MyMusic
     {
         private Student nowStudent;
         int i = 0;
-        public String nowArray[];//??????
+        public String[] nowArray = new String[14];//??????
+        //StringBuilder letterGuessedCorrect = new StringBuilder();// ithink i need string builder to add to my array
         public perLibrary(Student aPerson)
         {
-            nowArray[] = aPerson.getMyCOllection();
+            nowArray = aPerson.getMyCOllection();
             nowStudent = aPerson;
             InitializeComponent();
         }
-        public override String ToString()//<-----override thing
-        {
-            return nowStudent.getMyCollection;
-        }
+       
         private void textBoxSongs_TextChanged(object sender, EventArgs e)
         {
+
             //a for loop for the array printing out th e each string in differnt lines :)
-           // textBoxSongs.Text = nowStudent.getMyCOllection();// doesnt work needs the array to be split up into seperate arrays
+            // textBoxSongs.Text = nowStudent.getMyCOllection();// doesnt work needs the array to be split up into seperate arrays
+
+            for (i=0; 1<14; i++)
+            {
+                if (nowArray[i] == "")
+                    i++;
+                else
+                {
+                    textBoxSongs.Text = nowArray[i];//i need to figure out how to get to the next line of the multi line textbox
+                    i++;
+                }
+            }
+
 
         }
 

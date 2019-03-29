@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rsa8916\\OneDrive - Hereford Sixth Form College\\computer science\\code\\02 conversation\\GuessThe Number\\CPGuessesYourNumber\\CPGuessesYourNumber\\CPGuessesYourNumber.csproj",
+      "projectUniqueName": "H:\\My Documents\\computer science\\HSFCProjects\\code\\02 conversation\\GuessThe Number\\CPGuessesYourNumber\\CPGuessesYourNumber\\CPGuessesYourNumber.csproj",
       "projectName": "CPGuessesYourNumber",
-      "projectPath": "C:\\Users\\rsa8916\\OneDrive - Hereford Sixth Form College\\computer science\\code\\02 conversation\\GuessThe Number\\CPGuessesYourNumber\\CPGuessesYourNumber\\CPGuessesYourNumber.csproj",
+      "projectPath": "H:\\My Documents\\computer science\\HSFCProjects\\code\\02 conversation\\GuessThe Number\\CPGuessesYourNumber\\CPGuessesYourNumber\\CPGuessesYourNumber.csproj",
       "packagesPath": "C:\\Users\\rsa8916\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rsa8916\\OneDrive - Hereford Sixth Form College\\computer science\\code\\02 conversation\\GuessThe Number\\CPGuessesYourNumber\\CPGuessesYourNumber\\obj\\",
+      "outputPath": "H:\\My Documents\\computer science\\HSFCProjects\\code\\02 conversation\\GuessThe Number\\CPGuessesYourNumber\\CPGuessesYourNumber\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
