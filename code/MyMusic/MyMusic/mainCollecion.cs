@@ -19,7 +19,9 @@ namespace MyMusic
         String[] Tracks = { "someone you loved - Lewis Capaldi", "giant - Calvin Harris & Rag'N'Bone Man", "dont call me up - Mabel", "break up with your girlfriend im bored - Ariana Grande", "dancing with a stranger - Sam SMith & Naormani", "7 rings - Ariana Grande ", "sucker - Jonas brothers ", "disaster - Dave ft Hus", " streatham - Dave", " just you and i - Tom Walker", " location - Dave ft Burna Boy", " walk me home - Pink ", "im so tierd - Lauva& Troy Sivan", " options - NSG ft Tion Wayne" };
         private Student currentStudent;
         private perLibrary songs;
-         String[] userSong;
+        public String[] userSong = new String[14];
+        Form1 theForm = new Form1();
+
         
 
 
@@ -34,13 +36,14 @@ namespace MyMusic
        
         private void goToLibrary_Click(object sender, EventArgs e)
         {
-            currentStudent = new Student(userSong[14]);
+            //currentStudent = new Student(userSong[13]);
             songs = new perLibrary(currentStudent);
+
             songs.Show();
         }
 
         
-
+        
         public override  String ToString()//<-----override thing
         {
           return currentStudent.getName();
@@ -56,18 +59,14 @@ namespace MyMusic
 
         private void stuName_Click(object sender, EventArgs e)
         {
+
         }
-
-
-
-
-
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)///someone you loved 
         {
             //need to add track array location one to userSong array
             //OR just add a strng to array
-            userSong[0] = "someone you loved - Lewis Capaldi";
+            userSong[0] = Tracks[0];
         }
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)//

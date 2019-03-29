@@ -52,7 +52,7 @@
             // 
             // studentsUserName
             // 
-            this.studentsUserName.Location = new System.Drawing.Point(270, 294);
+            this.studentsUserName.Location = new System.Drawing.Point(270, 269);
             this.studentsUserName.Name = "studentsUserName";
             this.studentsUserName.Size = new System.Drawing.Size(219, 20);
             this.studentsUserName.TabIndex = 1;

@@ -31,9 +31,9 @@ namespace MyMusic
 
         }
       // inserting setter methods for each variable member
-      public void setName(String name)
+      public void setName(String aName)
       {
-            this.name = name;
+            name = aName;
       }
        //inserting getter methods for each variable member
        public string getName()
