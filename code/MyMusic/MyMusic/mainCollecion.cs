@@ -40,6 +40,8 @@ namespace MyMusic
             songs = new perLibrary(currentStudent);
 
             songs.Show();
+
+           
         }
 
         

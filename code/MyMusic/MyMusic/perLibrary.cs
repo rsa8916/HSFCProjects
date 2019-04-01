@@ -20,6 +20,8 @@ namespace MyMusic
         //StringBuilder letterGuessedCorrect = new StringBuilder();// ithink i need string builder to add to my array
         public perLibrary(Student aPerson)
         {
+
+            listBox1.Items.Clear();
             InitializeComponent();
             nowArray = aPerson.getMyCOllection().ToList<String>(); // converts to array to list
             nowStudent = aPerson;
@@ -52,6 +54,11 @@ namespace MyMusic
         private void label2_Click(object sender, EventArgs e)//to idsplay name
         {
 
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)//my list box
+        {
+           
         }
     }
 }

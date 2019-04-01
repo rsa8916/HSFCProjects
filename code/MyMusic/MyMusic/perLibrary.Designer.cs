@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBoxSongs = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // label1
@@ -44,15 +44,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "MY MUSIC";
             // 
-            // textBoxSongs
-            // 
-            this.textBoxSongs.Location = new System.Drawing.Point(152, 97);
-            this.textBoxSongs.Multiline = true;
-            this.textBoxSongs.Name = "textBoxSongs";
-            this.textBoxSongs.Size = new System.Drawing.Size(369, 299);
-            this.textBoxSongs.TabIndex = 1;
-            this.textBoxSongs.TextChanged += new System.EventHandler(this.textBoxSongs_TextChanged);
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -64,14 +55,23 @@
             this.label2.TabIndex = 2;
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(80, 83);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(306, 277);
+            this.listBox1.TabIndex = 3;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
             // perLibrary
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBoxSongs);
             this.Controls.Add(this.label1);
             this.Name = "perLibrary";
             this.Text = "personalLibrary";
@@ -84,7 +84,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBoxSongs;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
