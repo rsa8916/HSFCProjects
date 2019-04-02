@@ -36,7 +36,7 @@ namespace MyMusic
        
         private void goToLibrary_Click(object sender, EventArgs e)
         {
-            //currentStudent = new Student(userSong[13]);
+            currentStudent = new Student(userSong);
             songs = new perLibrary(currentStudent);
 
             songs.Show();

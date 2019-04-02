@@ -7,19 +7,36 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using myMusicTwo.Properties;
 
 namespace myMusicTwo
 {
     public partial class Form1 : Form
     {
+        string fileContent = Resources.music;
         public Form1()
         {
             InitializeComponent();
+            StringReader reader = new StringReader(fileContent);
         }
 
+      //  String line;
         
+           //   while ((line = reader.ReadLine()) != null) 
 
-        private void button1_Click(object sender, EventArgs e) //load button
+          //    { 
+
+
+        
+         //              tracks[nextFreeLocation] = line; 
+
+            //           nextFreeLocation++; 
+
+          // }
+          
+
+    private void button1_Click(object sender, EventArgs e) //load button
         {
             listBox1.Items.Clear();// cleared of "listBox1"
 
@@ -41,5 +58,67 @@ namespace myMusicTwo
             checkBox3.Checked = false;
             checkBox4.Checked = false;
         }
+
+       
+
+         
+
+        // read in the strings and store in my tracksarray 
+
+         
+        
+        // Whilst we would normally associate a file with a path e.g.C:/users/mbr this technique is rarely portable as all of our paths are different. 
+
+
+        //It is better instead to put the file in Resources and access it from there
+
+
+
+
+        //first create your file using notepad, enter your titles, one per line; now save as music.txt
+
+
+
+
+
+        //In Visual Studio, once you've created your project go to:  
+
+        // Project -> <name of project> properties -> Resources
+
+        // choose Files from the pull down
+
+        //Add existing file(then browse to a file e.g.music) that you have already created 
+
+
+
+        // add these to Using at the top 
+
+        //  using System.IO;                // You need this for file handling //done
+
+        //   using MyMusic.Properties;   // You need this to access your Resources //done
+
+
+
+
+
+        //  string fileContent = Resources.music;
+
+        //  StringReader reader = new StringReader(fileContent);
+
+        // read in the strings and store in my tracksarray 
+
+        //  String line;  
+
+        //      while ((line = reader.ReadLine()) != null) 
+
+        //      { 
+
+
+
+        //                  tracks[nextFreeLocation] = line; 
+
+        //                nextFreeLocation++; 
+
+        //} 
     }
 }

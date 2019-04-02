@@ -21,7 +21,7 @@ namespace MyMusic
         public perLibrary(Student aPerson)
         {
 
-            listBox1.Items.Clear();
+
             InitializeComponent();
             nowArray = aPerson.getMyCOllection().ToList<String>(); // converts to array to list
             nowStudent = aPerson;
@@ -42,14 +42,21 @@ namespace MyMusic
              //for (initializer; test-exspression; updater)
 
              
-            textBoxSongs.Text = nowArray[13];//i need to figure out how to get to the next line of the multi line textbox
+           // textBoxSongs.Text = nowArray[13];//i need to figure out how to get to the next line of the multi line textbox
       
 
         }
 
         private void perLibrary_Load(object sender, EventArgs e)
         {
+            listBox1.Items.Clear();
             label2.Text = nowStudent.getName();
+
+            //get length of songs array then loop through it adding each song to list box one at a time             
+            for (int i = 0; i < ; i++)
+            {
+                listBox1.Items.Add();  //inside brackets you need songarray[i]
+            }
         }
         private void label2_Click(object sender, EventArgs e)//to idsplay name
         {
