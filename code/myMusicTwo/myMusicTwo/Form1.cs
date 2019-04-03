@@ -14,11 +14,11 @@ namespace myMusicTwo
 {
     public partial class Form1 : Form
     {
-        string fileContent = Resources.music;
+       
         int nextFreeLocation = 0;
         string[] tracks = new string[14];
         CheckBox[] boxes;
-        String line;
+       
 
 
         public Form1()
@@ -33,7 +33,7 @@ namespace myMusicTwo
             }
 
             boxes = new CheckBox[15];
-            for (int i = 0; 1 < 14; i++)
+            for (int i = 1; i < 14; i++)
             {
                boxes[i] = new CheckBox();
                boxes[i].Text = line;
@@ -42,12 +42,42 @@ namespace myMusicTwo
            
             
         }
-
         
-        private void allocatingButtons()
+        
+        private void allocatingButtons(object sender, EventArgs e)
         {
-           
-            
+            CheckBox[] boxes;
+            string fileContent = Resources.music;
+            String line = "";
+            StringReader reader = new StringReader(fileContent);
+
+
+
+            if (System.IO.File.Exists(fileContent)==true)
+            {
+                System.IO.StreamReader objReader;
+                objReader = new System.IO.StreamReader(fileContent);
+                do
+                {
+                    listBox1.Items.Clear();
+                    for (int i= 0; i<14; )
+                    {
+                        if (boxes[i].Checked)//if a text is checked
+                        {//then...
+                            ListBox"i".Add(boxes.Text);
+                        }
+                        i++;
+                    }
+                } while (((line = reader.ReadLine()) != null)
+                { 
+                    tracks[nextFreeLocation] = line;
+                    nextFreeLocation++;
+                }
+            else
+            {
+
+            }
+            }
         }
 
         private void button1_Click(object sender, EventArgs e) //load button
@@ -74,7 +104,7 @@ namespace myMusicTwo
                                    // checkBox2.Checked = false;
                                    // checkBox3.Checked = false;
                                    //checkBox4.Checked = false;
-            for (int n = 0; n < 14; n++)
+            for (int n = 1; n < 14; n++)
             {
                 boxes[n].Checked = false;//clears the check boxes 
             }
