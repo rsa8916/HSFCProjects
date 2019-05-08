@@ -66,6 +66,22 @@
             this.pictureBox46 = new System.Windows.Forms.PictureBox();
             this.pictureBox47 = new System.Windows.Forms.PictureBox();
             this.gameTimer = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.pictureBox38 = new System.Windows.Forms.PictureBox();
+            this.pictureBox39 = new System.Windows.Forms.PictureBox();
+            this.pictureBox40 = new System.Windows.Forms.PictureBox();
+            this.pictureBox41 = new System.Windows.Forms.PictureBox();
+            this.pictureBox42 = new System.Windows.Forms.PictureBox();
+            this.pictureBox43 = new System.Windows.Forms.PictureBox();
+            this.pictureBox48 = new System.Windows.Forms.PictureBox();
+            this.pictureBox49 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.background)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -102,6 +118,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).BeginInit();
             this.SuspendLayout();
             // 
             // background
@@ -270,7 +302,7 @@
             // key
             // 
             this.key.Image = global::side_scrolling_plateform_game.Properties.Resources.key;
-            this.key.Location = new System.Drawing.Point(1084, 298);
+            this.key.Location = new System.Drawing.Point(1748, 45);
             this.key.Name = "key";
             this.key.Size = new System.Drawing.Size(90, 47);
             this.key.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -476,13 +508,199 @@
             // 
             this.gameTimer.Enabled = true;
             this.gameTimer.Interval = 20;
-            this.gameTimer.Tick += new System.EventHandler(this.mainGameTimer);
+            this.gameTimer.Tick += new System.EventHandler(this.gameTimer_Tick);
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.BackgroundImage = global::side_scrolling_plateform_game.Properties.Resources.platform;
+            this.pictureBox15.Location = new System.Drawing.Point(923, 225);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(78, 32);
+            this.pictureBox15.TabIndex = 50;
+            this.pictureBox15.TabStop = false;
+            this.pictureBox15.Tag = "platform";
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.BackgroundImage = global::side_scrolling_plateform_game.Properties.Resources.platform;
+            this.pictureBox16.Location = new System.Drawing.Point(1664, 242);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(78, 32);
+            this.pictureBox16.TabIndex = 51;
+            this.pictureBox16.TabStop = false;
+            this.pictureBox16.Tag = "platform";
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.BackgroundImage = global::side_scrolling_plateform_game.Properties.Resources.platform;
+            this.pictureBox17.Location = new System.Drawing.Point(1564, 331);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(78, 32);
+            this.pictureBox17.TabIndex = 52;
+            this.pictureBox17.TabStop = false;
+            this.pictureBox17.Tag = "platform";
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.BackgroundImage = global::side_scrolling_plateform_game.Properties.Resources.platform;
+            this.pictureBox18.Location = new System.Drawing.Point(1468, 448);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(78, 32);
+            this.pictureBox18.TabIndex = 53;
+            this.pictureBox18.TabStop = false;
+            this.pictureBox18.Tag = "platform";
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.BackgroundImage = global::side_scrolling_plateform_game.Properties.Resources.platform;
+            this.pictureBox19.Location = new System.Drawing.Point(1425, 448);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(78, 32);
+            this.pictureBox19.TabIndex = 54;
+            this.pictureBox19.TabStop = false;
+            this.pictureBox19.Tag = "platform";
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.BackgroundImage = global::side_scrolling_plateform_game.Properties.Resources.platform;
+            this.pictureBox20.Location = new System.Drawing.Point(1370, 448);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(78, 32);
+            this.pictureBox20.TabIndex = 55;
+            this.pictureBox20.TabStop = false;
+            this.pictureBox20.Tag = "platform";
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.Image = global::side_scrolling_plateform_game.Properties.Resources.coin;
+            this.pictureBox21.Location = new System.Drawing.Point(1349, 298);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox21.TabIndex = 56;
+            this.pictureBox21.TabStop = false;
+            this.pictureBox21.Tag = "coin";
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.Image = global::side_scrolling_plateform_game.Properties.Resources.coin;
+            this.pictureBox22.Location = new System.Drawing.Point(1434, 346);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox22.TabIndex = 57;
+            this.pictureBox22.TabStop = false;
+            this.pictureBox22.Tag = "coin";
+            // 
+            // pictureBox38
+            // 
+            this.pictureBox38.Image = global::side_scrolling_plateform_game.Properties.Resources.coin;
+            this.pictureBox38.Location = new System.Drawing.Point(1370, 346);
+            this.pictureBox38.Name = "pictureBox38";
+            this.pictureBox38.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox38.TabIndex = 58;
+            this.pictureBox38.TabStop = false;
+            this.pictureBox38.Tag = "coin";
+            // 
+            // pictureBox39
+            // 
+            this.pictureBox39.Image = global::side_scrolling_plateform_game.Properties.Resources.coin;
+            this.pictureBox39.Location = new System.Drawing.Point(1309, 346);
+            this.pictureBox39.Name = "pictureBox39";
+            this.pictureBox39.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox39.TabIndex = 59;
+            this.pictureBox39.TabStop = false;
+            this.pictureBox39.Tag = "coin";
+            // 
+            // pictureBox40
+            // 
+            this.pictureBox40.Image = global::side_scrolling_plateform_game.Properties.Resources.coin;
+            this.pictureBox40.Location = new System.Drawing.Point(1468, 391);
+            this.pictureBox40.Name = "pictureBox40";
+            this.pictureBox40.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox40.TabIndex = 60;
+            this.pictureBox40.TabStop = false;
+            this.pictureBox40.Tag = "coin";
+            // 
+            // pictureBox41
+            // 
+            this.pictureBox41.Image = global::side_scrolling_plateform_game.Properties.Resources.coin;
+            this.pictureBox41.Location = new System.Drawing.Point(1397, 391);
+            this.pictureBox41.Name = "pictureBox41";
+            this.pictureBox41.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox41.TabIndex = 61;
+            this.pictureBox41.TabStop = false;
+            this.pictureBox41.Tag = "coin";
+            // 
+            // pictureBox42
+            // 
+            this.pictureBox42.Image = global::side_scrolling_plateform_game.Properties.Resources.coin;
+            this.pictureBox42.Location = new System.Drawing.Point(1338, 391);
+            this.pictureBox42.Name = "pictureBox42";
+            this.pictureBox42.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox42.TabIndex = 62;
+            this.pictureBox42.TabStop = false;
+            this.pictureBox42.Tag = "coin";
+            // 
+            // pictureBox43
+            // 
+            this.pictureBox43.Image = global::side_scrolling_plateform_game.Properties.Resources.coin;
+            this.pictureBox43.Location = new System.Drawing.Point(1689, 190);
+            this.pictureBox43.Name = "pictureBox43";
+            this.pictureBox43.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox43.TabIndex = 63;
+            this.pictureBox43.TabStop = false;
+            this.pictureBox43.Tag = "coin";
+            // 
+            // pictureBox48
+            // 
+            this.pictureBox48.Image = global::side_scrolling_plateform_game.Properties.Resources.coin;
+            this.pictureBox48.Location = new System.Drawing.Point(1370, 251);
+            this.pictureBox48.Name = "pictureBox48";
+            this.pictureBox48.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox48.TabIndex = 64;
+            this.pictureBox48.TabStop = false;
+            this.pictureBox48.Tag = "coin";
+            // 
+            // pictureBox49
+            // 
+            this.pictureBox49.Image = global::side_scrolling_plateform_game.Properties.Resources.coin;
+            this.pictureBox49.Location = new System.Drawing.Point(1397, 298);
+            this.pictureBox49.Name = "pictureBox49";
+            this.pictureBox49.Size = new System.Drawing.Size(35, 30);
+            this.pictureBox49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox49.TabIndex = 65;
+            this.pictureBox49.TabStop = false;
+            this.pictureBox49.Tag = "coin";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(598, 482);
+            this.ClientSize = new System.Drawing.Size(1924, 482);
+            this.Controls.Add(this.pictureBox49);
+            this.Controls.Add(this.pictureBox48);
+            this.Controls.Add(this.pictureBox43);
+            this.Controls.Add(this.pictureBox42);
+            this.Controls.Add(this.pictureBox41);
+            this.Controls.Add(this.pictureBox40);
+            this.Controls.Add(this.pictureBox39);
+            this.Controls.Add(this.pictureBox38);
+            this.Controls.Add(this.pictureBox22);
+            this.Controls.Add(this.pictureBox21);
+            this.Controls.Add(this.pictureBox20);
+            this.Controls.Add(this.pictureBox19);
+            this.Controls.Add(this.pictureBox18);
+            this.Controls.Add(this.pictureBox17);
+            this.Controls.Add(this.pictureBox16);
+            this.Controls.Add(this.pictureBox15);
             this.Controls.Add(this.pictureBox47);
             this.Controls.Add(this.pictureBox46);
             this.Controls.Add(this.pictureBox45);
@@ -559,6 +777,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox46)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox48)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox49)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -603,6 +837,22 @@
         private System.Windows.Forms.PictureBox pictureBox46;
         private System.Windows.Forms.PictureBox pictureBox47;
         private System.Windows.Forms.Timer gameTimer;
+        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.PictureBox pictureBox16;
+        private System.Windows.Forms.PictureBox pictureBox17;
+        private System.Windows.Forms.PictureBox pictureBox18;
+        private System.Windows.Forms.PictureBox pictureBox19;
+        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.PictureBox pictureBox21;
+        private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.PictureBox pictureBox38;
+        private System.Windows.Forms.PictureBox pictureBox39;
+        private System.Windows.Forms.PictureBox pictureBox40;
+        private System.Windows.Forms.PictureBox pictureBox41;
+        private System.Windows.Forms.PictureBox pictureBox42;
+        private System.Windows.Forms.PictureBox pictureBox43;
+        private System.Windows.Forms.PictureBox pictureBox48;
+        private System.Windows.Forms.PictureBox pictureBox49;
     }
 }
 
