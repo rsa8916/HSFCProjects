@@ -43,7 +43,7 @@
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.door = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.player = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.key = new System.Windows.Forms.PictureBox();
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
@@ -96,7 +96,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.door)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.player)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.key)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
@@ -278,15 +278,15 @@
             this.pictureBox13.TabStop = false;
             this.pictureBox13.Tag = "coin";
             // 
-            // pictureBox12
+            // player
             // 
-            this.pictureBox12.Image = global::side_scrolling_plateform_game.Properties.Resources.player;
-            this.pictureBox12.Location = new System.Drawing.Point(64, 391);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(50, 60);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox12.TabIndex = 13;
-            this.pictureBox12.TabStop = false;
+            this.player.Image = global::side_scrolling_plateform_game.Properties.Resources.player;
+            this.player.Location = new System.Drawing.Point(62, 391);
+            this.player.Name = "player";
+            this.player.Size = new System.Drawing.Size(50, 60);
+            this.player.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.player.TabIndex = 13;
+            this.player.TabStop = false;
             // 
             // pictureBox14
             // 
@@ -722,7 +722,7 @@
             this.Controls.Add(this.pictureBox23);
             this.Controls.Add(this.key);
             this.Controls.Add(this.pictureBox14);
-            this.Controls.Add(this.pictureBox12);
+            this.Controls.Add(this.player);
             this.Controls.Add(this.pictureBox13);
             this.Controls.Add(this.door);
             this.Controls.Add(this.pictureBox11);
@@ -755,7 +755,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.door)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.player)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.key)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
@@ -814,7 +814,7 @@
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.PictureBox door;
         private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.PictureBox player;
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.PictureBox key;
         private System.Windows.Forms.PictureBox pictureBox23;
