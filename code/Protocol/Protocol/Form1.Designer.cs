@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.header = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
@@ -41,9 +45,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.fireboy = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.header)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
@@ -56,9 +60,47 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fireboy)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             this.SuspendLayout();
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 20;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // header
+            // 
+            this.header.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.header.Image = global::Protocol.Properties.Resources.blackIMG;
+            this.header.Location = new System.Drawing.Point(817, 433);
+            this.header.Name = "header";
+            this.header.Size = new System.Drawing.Size(43, 14);
+            this.header.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.header.TabIndex = 22;
+            this.header.TabStop = false;
+            this.header.Tag = "border";
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Image = global::Protocol.Properties.Resources.waterBlue;
+            this.pictureBox17.Location = new System.Drawing.Point(94, 88);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(155, 50);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox17.TabIndex = 21;
+            this.pictureBox17.TabStop = false;
+            this.pictureBox17.Tag = "water";
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = global::Protocol.Properties.Resources.waterBlue;
+            this.pictureBox12.Location = new System.Drawing.Point(514, 503);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(103, 22);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 16;
+            this.pictureBox12.TabStop = false;
+            this.pictureBox12.Tag = "water";
             // 
             // pictureBox11
             // 
@@ -74,7 +116,7 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = global::Protocol.Properties.Resources.platform;
-            this.pictureBox10.Location = new System.Drawing.Point(0, 104);
+            this.pictureBox10.Location = new System.Drawing.Point(0, 41);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(263, 27);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -96,7 +138,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::Protocol.Properties.Resources.platform;
-            this.pictureBox8.Location = new System.Drawing.Point(305, 250);
+            this.pictureBox8.Location = new System.Drawing.Point(294, 88);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(263, 27);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -107,7 +149,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::Protocol.Properties.Resources.platform;
-            this.pictureBox7.Location = new System.Drawing.Point(129, 386);
+            this.pictureBox7.Location = new System.Drawing.Point(185, 498);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(263, 27);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -151,7 +193,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Protocol.Properties.Resources.platform;
-            this.pictureBox2.Location = new System.Drawing.Point(611, 267);
+            this.pictureBox2.Location = new System.Drawing.Point(597, 41);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(263, 27);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -162,7 +204,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Protocol.Properties.Resources.platform;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 267);
+            this.pictureBox1.Location = new System.Drawing.Point(46, 158);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(263, 27);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -184,46 +226,20 @@
             // fireboy
             // 
             this.fireboy.Image = global::Protocol.Properties.Resources.fireboyIMG;
-            this.fireboy.Location = new System.Drawing.Point(817, 446);
+            this.fireboy.Location = new System.Drawing.Point(817, 443);
             this.fireboy.Name = "fireboy";
             this.fireboy.Size = new System.Drawing.Size(43, 56);
             this.fireboy.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fireboy.TabIndex = 0;
             this.fireboy.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = global::Protocol.Properties.Resources.waterBlue;
-            this.pictureBox12.Location = new System.Drawing.Point(514, 503);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(103, 22);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 16;
-            this.pictureBox12.TabStop = false;
-            this.pictureBox12.Tag = "water";
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.Image = global::Protocol.Properties.Resources.waterBlue;
-            this.pictureBox17.Location = new System.Drawing.Point(253, 498);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(155, 50);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox17.TabIndex = 21;
-            this.pictureBox17.TabStop = false;
-            this.pictureBox17.Tag = "water";
-            // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Interval = 20;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.fireboy.Tag = "character";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(872, 527);
+            this.Controls.Add(this.header);
             this.Controls.Add(this.pictureBox17);
             this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.pictureBox11);
@@ -242,6 +258,9 @@
             this.Text = "Form1";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyIsDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyIsUp);
+            ((System.ComponentModel.ISupportInitialize)(this.header)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
@@ -254,16 +273,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fireboy)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox fireboy;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
@@ -278,6 +293,8 @@
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.PictureBox pictureBox17;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.PictureBox header;
+        private System.Windows.Forms.PictureBox fireboy;
     }
 }
 
