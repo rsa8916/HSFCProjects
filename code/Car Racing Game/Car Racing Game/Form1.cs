@@ -82,7 +82,7 @@ namespace Car_Racing_Game
             //end of track animation.
 
             if (carLeft) { player.Left -= carSpeed; } //move the car left if the car left is true
-            if (carRight) { player.Left -= carSpeed; } //move the car right if the car right is true
+            if (carRight) { player.Left += carSpeed; } //move the car right if the car right is true
 
             //end of car moving.
 

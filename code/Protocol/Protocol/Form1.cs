@@ -12,13 +12,22 @@ namespace Protocol
 {
     public partial class Form1 : Form
     {
+        //for fireboy
         bool goLeft = false;
         bool goRight = false;
         bool jumping = false;
-
+        //for watergirl
+        bool h2oLeft = false;
+        bool h2oRight = false;
+        bool h2oJumping = false;
+        
+        //for fireboy
         int jumpSpeed = 10;
         double  force = 2;
 
+        //for watergirl
+        int h2oJumpSpeed = 10;
+        double h2oForce = 2;
 
         public Form1()
         {
@@ -27,6 +36,7 @@ namespace Protocol
 
         private void keyIsDown(object sender, KeyEventArgs e)
         {
+            //fireboy
             if (e.KeyCode == Keys.Left)//left button
             {
                 goLeft = true; //setting the boolean to true
@@ -35,14 +45,29 @@ namespace Protocol
             {
                 goRight = true;
             }
-            if (e.KeyCode == Keys.Space && !jumping)//when the space bar is pressed down and jumping is not true
+            if (e.KeyCode == Keys.Up && !jumping)//when the space bar is pressed down and jumping is not true
             {
                 jumping = true;//setting jumping to true
+            }
+
+            //watergirl
+            if(e.KeyCode == Keys.A)
+            {
+                h2oLeft = true;
+            }
+            if(e.KeyCode == Keys.D)
+            {
+                h2oRight = true;
+            }
+            if(e.KeyCode == Keys.W && !h2oJumping)
+            {
+                h2oJumping = true;
             }
         }
 
         private void keyIsUp(object sender, KeyEventArgs e)
         {
+            //fireboy
             if (e.KeyCode == Keys.Left)
             {
                 goLeft = false;
@@ -55,6 +80,20 @@ namespace Protocol
             {
                 jumping = false;
             }
+
+            //watergirl
+            if(e.KeyCode == Keys.A)
+            {
+                h2oLeft = false;
+            }
+            if(e.KeyCode == Keys.D)
+            {
+                h2oRight = false;
+            }
+            if(e.KeyCode == Keys.W)
+            {
+                h2oJumping = false;
+            }
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -62,6 +101,7 @@ namespace Protocol
             //continusly dropping the player towards the ground
             //same effect as gravity (ish)
             fireboy.Top += jumpSpeed;
+            watergirl.Top += jumpSpeed;
             header.Top += jumpSpeed;
 
 
@@ -69,18 +109,33 @@ namespace Protocol
             {
                 jumping = false;
             }
+            if(h2oJumping && h2oForce < 0)
+            {
+                h2oJumping = false;
+            }
+
             if (goLeft)//if goleft is true we can push the player towards the left of the screen
             {
                 fireboy.Left -= 5;
                 header.Top -= 5;
                 
             }
+            if(h2oLeft)
+            {
+                watergirl.Left -= 5;
+            }
+            //going right
             if (goRight)//if goright is true we can push the chararcter to the right of the screen 
             {
                 fireboy.Left += 5;
                 header.Top += 5;
               
             }
+            if(h2oRight)
+            {
+                watergirl.Left += 5;
+            }
+            //jumoing
             if (jumping)//if jumping is true
             {
                 jumpSpeed = -20;//will thrust the player towards the top 
@@ -91,10 +146,20 @@ namespace Protocol
             {
                 jumpSpeed = 14;
             }
-            
+
+            if(h2oJumping)
+            {
+                h2oJumpSpeed = -20;
+                h2oForce -= 0.8;
+            }
+            else
+            {
+                h2oJumpSpeed = 14;
+            }
+
             foreach (Control x in this.Controls)
             {
-                if(x is PictureBox && x.Tag == "character" )
+                if(x is PictureBox && x.Tag == "character")
                 {
                     if(header.Bounds.IntersectsWith(x.Bounds))
                     {
@@ -102,6 +167,7 @@ namespace Protocol
                         header.Top = x.Top - header.Height;
                     }
                 }
+
                 if (x is PictureBox && x.Tag == "platform")
                 {
                     if (fireboy.Bounds.IntersectsWith(x.Bounds) && !jumping)
@@ -109,13 +175,25 @@ namespace Protocol
                         force = 8;
                         fireboy.Top = x.Top - fireboy.Height;
                     }
+                    if(watergirl.Bounds.IntersectsWith(x.Bounds) && !h2oJumping)
+                    {
+                        h2oForce = 8;
+                        watergirl.Top = x.Top - watergirl.Height;
+                    }
                 }
+
                 if(x is PictureBox && x.Tag == "border")
                 {
                     if(fireboy.Bounds.IntersectsWith(x.Bounds) && !jumping)
                     {
                         force = 8;
                         fireboy.Top = x.Top - fireboy.Height;
+                    }
+
+                    if (watergirl.Bounds.IntersectsWith(x.Bounds) && !h2oJumping)
+                    {
+                        h2oForce = 8;
+                        watergirl.Top = x.Top - watergirl.Height;
                     }
                 }
                 if (x is PictureBox && x.Tag == "water")
@@ -124,10 +202,16 @@ namespace Protocol
                     {
                         timer1.Stop();
                         MessageBox.Show("you DIED");
-
                     }
                 }
-
+                if(x is PictureBox && x.Tag =="fire")
+                {
+                    if(watergirl.Bounds.IntersectsWith(x.Bounds) && !h2oJumping)
+                    {
+                        timer1.Stop();
+                        MessageBox.Show("you DIED");
+                    }
+                }
 
             }
         }
