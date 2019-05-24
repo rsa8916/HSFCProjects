@@ -83,6 +83,16 @@ namespace Protocol.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fireboy {
+            get {
+                object obj = ResourceManager.GetObject("fireboy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fireboyIMG {
             get {
                 object obj = ResourceManager.GetObject("fireboyIMG", resourceCulture);
@@ -126,6 +136,16 @@ namespace Protocol.Properties {
         internal static System.Drawing.Bitmap waterBlue {
             get {
                 object obj = ResourceManager.GetObject("waterBlue", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WATERGIRL {
+            get {
+                object obj = ResourceManager.GetObject("WATERGIRL", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

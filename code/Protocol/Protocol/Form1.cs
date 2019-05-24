@@ -13,9 +13,9 @@ namespace Protocol
     public partial class Form1 : Form
     {
         //for fireboy
-        bool goLeft = false;
-        bool goRight = false;
-        bool jumping = false;
+        bool goLeft = false;//this controls fb to go left
+        bool goRight = false;//a bool for fb to go right
+        bool jumping = false;//a bool for fb jumping
         //for watergirl
         bool h2oLeft = false;
         bool h2oRight = false;
@@ -24,7 +24,6 @@ namespace Protocol
         //for fireboy
         int jumpSpeed = 10;
         double  force = 2;
-
         //for watergirl
         int h2oJumpSpeed = 10;
         double h2oForce = 2;
@@ -101,9 +100,8 @@ namespace Protocol
             //continusly dropping the player towards the ground
             //same effect as gravity (ish)
             fireboy.Top += jumpSpeed;
-            watergirl.Top += jumpSpeed;
+            watergirl.Top += h2oJumpSpeed;
             header.Top += jumpSpeed;
-
 
             if (jumping && force < 0)//checking if the player is jumping and the force is less than 0
             {
@@ -113,11 +111,12 @@ namespace Protocol
             {
                 h2oJumping = false;
             }
+            
 
             if (goLeft)//if goleft is true we can push the player towards the left of the screen
             {
                 fireboy.Left -= 5;
-                header.Top -= 5;
+                header.Left -= 5;
                 
             }
             if(h2oLeft)
@@ -128,7 +127,7 @@ namespace Protocol
             if (goRight)//if goright is true we can push the chararcter to the right of the screen 
             {
                 fireboy.Left += 5;
-                header.Top += 5;
+                header.Left += 5;
               
             }
             if(h2oRight)
@@ -180,22 +179,13 @@ namespace Protocol
                         h2oForce = 8;
                         watergirl.Top = x.Top - watergirl.Height;
                     }
-                }
-
-                if(x is PictureBox && x.Tag == "border")
-                {
-                    if(fireboy.Bounds.IntersectsWith(x.Bounds) && !jumping)
+                    if(header.Bounds.IntersectsWith(x.Bounds))
                     {
-                        force = 8;
-                        fireboy.Top = x.Top - fireboy.Height;
-                    }
 
-                    if (watergirl.Bounds.IntersectsWith(x.Bounds) && !h2oJumping)
-                    {
-                        h2oForce = 8;
-                        watergirl.Top = x.Top - watergirl.Height;
                     }
                 }
+
+              
                 if (x is PictureBox && x.Tag == "water")
                 {
                     if (fireboy.Bounds.IntersectsWith(x.Bounds) && !jumping)
@@ -210,6 +200,7 @@ namespace Protocol
                     {
                         timer1.Stop();
                         MessageBox.Show("you DIED");
+
                     }
                 }
 

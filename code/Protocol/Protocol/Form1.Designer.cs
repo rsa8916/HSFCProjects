@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.watergirl = new System.Windows.Forms.PictureBox();
             this.header = new System.Windows.Forms.PictureBox();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
@@ -46,7 +47,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.fireboy = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.watergirl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.header)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
@@ -63,7 +64,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fireboy)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
@@ -72,9 +72,20 @@
             this.timer1.Interval = 20;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Image = global::Protocol.Properties.Resources.fireIMG;
+            this.pictureBox13.Location = new System.Drawing.Point(248, 503);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(118, 27);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox13.TabIndex = 24;
+            this.pictureBox13.TabStop = false;
+            this.pictureBox13.Tag = "fire";
+            // 
             // watergirl
             // 
-            this.watergirl.Image = global::Protocol.Properties.Resources.watergirlIMG;
+            this.watergirl.Image = global::Protocol.Properties.Resources.WATERGIRL;
             this.watergirl.Location = new System.Drawing.Point(94, 443);
             this.watergirl.Name = "watergirl";
             this.watergirl.Size = new System.Drawing.Size(38, 60);
@@ -87,9 +98,9 @@
             // 
             this.header.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.header.Image = global::Protocol.Properties.Resources.blackIMG;
-            this.header.Location = new System.Drawing.Point(709, 432);
+            this.header.Location = new System.Drawing.Point(709, 443);
             this.header.Name = "header";
-            this.header.Size = new System.Drawing.Size(43, 14);
+            this.header.Size = new System.Drawing.Size(43, 10);
             this.header.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.header.TabIndex = 22;
             this.header.TabStop = false;
@@ -164,7 +175,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::Protocol.Properties.Resources.platform;
-            this.pictureBox7.Location = new System.Drawing.Point(443, 274);
+            this.pictureBox7.Location = new System.Drawing.Point(521, 223);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(263, 27);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -197,9 +208,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Protocol.Properties.Resources.platform;
-            this.pictureBox3.Location = new System.Drawing.Point(396, 503);
+            this.pictureBox3.Location = new System.Drawing.Point(366, 503);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(125, 27);
+            this.pictureBox3.Size = new System.Drawing.Size(155, 27);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 8;
             this.pictureBox3.TabStop = false;
@@ -240,25 +251,14 @@
             // 
             // fireboy
             // 
-            this.fireboy.Image = global::Protocol.Properties.Resources.fireboyIMG;
-            this.fireboy.Location = new System.Drawing.Point(709, 443);
+            this.fireboy.Image = global::Protocol.Properties.Resources.fireboy;
+            this.fireboy.Location = new System.Drawing.Point(709, 452);
             this.fireboy.Name = "fireboy";
             this.fireboy.Size = new System.Drawing.Size(43, 56);
             this.fireboy.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fireboy.TabIndex = 0;
             this.fireboy.TabStop = false;
             this.fireboy.Tag = "character";
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = global::Protocol.Properties.Resources.fireIMG;
-            this.pictureBox13.Location = new System.Drawing.Point(248, 503);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(157, 27);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 24;
-            this.pictureBox13.TabStop = false;
-            this.pictureBox13.Tag = "fire";
             // 
             // Form1
             // 
@@ -286,6 +286,7 @@
             this.Text = "Form1";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyIsDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyIsUp);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.watergirl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.header)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
@@ -302,7 +303,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fireboy)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
