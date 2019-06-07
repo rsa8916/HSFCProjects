@@ -93,6 +93,16 @@ namespace Protocol.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fireboyDoor {
+            get {
+                object obj = ResourceManager.GetObject("fireboyDoor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fireboyIMG {
             get {
                 object obj = ResourceManager.GetObject("fireboyIMG", resourceCulture);
@@ -123,6 +133,16 @@ namespace Protocol.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap redDiamond {
+            get {
+                object obj = ResourceManager.GetObject("redDiamond", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap transparentIMG {
             get {
                 object obj = ResourceManager.GetObject("transparentIMG", resourceCulture);
@@ -146,6 +166,16 @@ namespace Protocol.Properties {
         internal static System.Drawing.Bitmap WATERGIRL {
             get {
                 object obj = ResourceManager.GetObject("WATERGIRL", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap watergirlDoor {
+            get {
+                object obj = ResourceManager.GetObject("watergirlDoor", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

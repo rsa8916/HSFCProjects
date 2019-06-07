@@ -30,10 +30,14 @@
         {
             this.components = new System.ComponentModel.Container();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.fireboyDoor = new System.Windows.Forms.PictureBox();
+            this.watergirlDoor = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.watergirl = new System.Windows.Forms.PictureBox();
             this.header = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
@@ -47,10 +51,15 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.fireboy = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.fireboyDoor)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.watergirlDoor)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.watergirl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.header)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
@@ -64,6 +73,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fireboy)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
@@ -71,6 +81,61 @@
             this.timer1.Enabled = true;
             this.timer1.Interval = 20;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // fireboyDoor
+            // 
+            this.fireboyDoor.Image = global::Protocol.Properties.Resources.fireboyDoor;
+            this.fireboyDoor.Location = new System.Drawing.Point(730, 0);
+            this.fireboyDoor.Name = "fireboyDoor";
+            this.fireboyDoor.Size = new System.Drawing.Size(61, 71);
+            this.fireboyDoor.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.fireboyDoor.TabIndex = 29;
+            this.fireboyDoor.TabStop = false;
+            this.fireboyDoor.Tag = "fireboyDoor";
+            // 
+            // watergirlDoor
+            // 
+            this.watergirlDoor.Image = global::Protocol.Properties.Resources.watergirlDoor;
+            this.watergirlDoor.Location = new System.Drawing.Point(797, 0);
+            this.watergirlDoor.Name = "watergirlDoor";
+            this.watergirlDoor.Size = new System.Drawing.Size(63, 71);
+            this.watergirlDoor.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.watergirlDoor.TabIndex = 28;
+            this.watergirlDoor.TabStop = false;
+            this.watergirlDoor.Tag = "watergirlDoor";
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Image = global::Protocol.Properties.Resources.platform;
+            this.pictureBox16.Location = new System.Drawing.Point(611, 44);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(56, 27);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox16.TabIndex = 27;
+            this.pictureBox16.TabStop = false;
+            this.pictureBox16.Tag = "platform";
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.Image = global::Protocol.Properties.Resources.platform;
+            this.pictureBox15.Location = new System.Drawing.Point(465, 129);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(154, 54);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox15.TabIndex = 26;
+            this.pictureBox15.TabStop = false;
+            this.pictureBox15.Tag = "platform";
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.Image = global::Protocol.Properties.Resources.platform;
+            this.pictureBox14.Location = new System.Drawing.Point(222, 44);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(41, 70);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox14.TabIndex = 25;
+            this.pictureBox14.TabStop = false;
+            this.pictureBox14.Tag = "platform";
             // 
             // pictureBox13
             // 
@@ -86,9 +151,9 @@
             // watergirl
             // 
             this.watergirl.Image = global::Protocol.Properties.Resources.WATERGIRL;
-            this.watergirl.Location = new System.Drawing.Point(94, 443);
+            this.watergirl.Location = new System.Drawing.Point(71, 375);
             this.watergirl.Name = "watergirl";
-            this.watergirl.Size = new System.Drawing.Size(38, 60);
+            this.watergirl.Size = new System.Drawing.Size(38, 56);
             this.watergirl.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.watergirl.TabIndex = 23;
             this.watergirl.TabStop = false;
@@ -98,24 +163,13 @@
             // 
             this.header.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.header.Image = global::Protocol.Properties.Resources.blackIMG;
-            this.header.Location = new System.Drawing.Point(709, 443);
+            this.header.Location = new System.Drawing.Point(12, 359);
             this.header.Name = "header";
             this.header.Size = new System.Drawing.Size(43, 10);
             this.header.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.header.TabIndex = 22;
             this.header.TabStop = false;
             this.header.Tag = "border";
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.Image = global::Protocol.Properties.Resources.waterBlue;
-            this.pictureBox17.Location = new System.Drawing.Point(94, 88);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(155, 50);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox17.TabIndex = 21;
-            this.pictureBox17.TabStop = false;
-            this.pictureBox17.Tag = "water";
             // 
             // pictureBox12
             // 
@@ -131,10 +185,10 @@
             // pictureBox11
             // 
             this.pictureBox11.Image = global::Protocol.Properties.Resources.platform;
-            this.pictureBox11.Location = new System.Drawing.Point(611, 104);
+            this.pictureBox11.Location = new System.Drawing.Point(465, 268);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(263, 27);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox11.Size = new System.Drawing.Size(409, 15);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 15;
             this.pictureBox11.TabStop = false;
             this.pictureBox11.Tag = "platform";
@@ -142,10 +196,10 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = global::Protocol.Properties.Resources.platform;
-            this.pictureBox10.Location = new System.Drawing.Point(0, 41);
+            this.pictureBox10.Location = new System.Drawing.Point(0, 113);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(263, 27);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox10.Size = new System.Drawing.Size(143, 70);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 14;
             this.pictureBox10.TabStop = false;
             this.pictureBox10.Tag = "platform";
@@ -153,9 +207,9 @@
             // pictureBox9
             // 
             this.pictureBox9.Image = global::Protocol.Properties.Resources.platform;
-            this.pictureBox9.Location = new System.Drawing.Point(366, 148);
+            this.pictureBox9.Location = new System.Drawing.Point(475, 375);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(134, 27);
+            this.pictureBox9.Size = new System.Drawing.Size(170, 11);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 13;
             this.pictureBox9.TabStop = false;
@@ -164,10 +218,10 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::Protocol.Properties.Resources.platform;
-            this.pictureBox8.Location = new System.Drawing.Point(294, 88);
+            this.pictureBox8.Location = new System.Drawing.Point(154, 247);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(263, 27);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox8.Size = new System.Drawing.Size(314, 15);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 12;
             this.pictureBox8.TabStop = false;
             this.pictureBox8.Tag = "platform";
@@ -175,10 +229,10 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::Protocol.Properties.Resources.platform;
-            this.pictureBox7.Location = new System.Drawing.Point(521, 223);
+            this.pictureBox7.Location = new System.Drawing.Point(0, 428);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(263, 27);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox7.Size = new System.Drawing.Size(263, 15);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 11;
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Tag = "platform";
@@ -186,10 +240,10 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Protocol.Properties.Resources.platform;
-            this.pictureBox6.Location = new System.Drawing.Point(294, 30);
+            this.pictureBox6.Location = new System.Drawing.Point(209, 68);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(263, 27);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox6.Size = new System.Drawing.Size(665, 12);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 10;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Tag = "platform";
@@ -219,10 +273,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Protocol.Properties.Resources.platform;
-            this.pictureBox2.Location = new System.Drawing.Point(597, 41);
+            this.pictureBox2.Location = new System.Drawing.Point(0, 173);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(263, 27);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox2.Size = new System.Drawing.Size(794, 10);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Tag = "platform";
@@ -230,10 +284,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Protocol.Properties.Resources.platform;
-            this.pictureBox1.Location = new System.Drawing.Point(46, 158);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 336);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(263, 27);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.Size = new System.Drawing.Size(468, 15);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Tag = "platform";
@@ -252,7 +306,7 @@
             // fireboy
             // 
             this.fireboy.Image = global::Protocol.Properties.Resources.fireboy;
-            this.fireboy.Location = new System.Drawing.Point(709, 452);
+            this.fireboy.Location = new System.Drawing.Point(12, 375);
             this.fireboy.Name = "fireboy";
             this.fireboy.Size = new System.Drawing.Size(43, 56);
             this.fireboy.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -260,15 +314,28 @@
             this.fireboy.TabStop = false;
             this.fireboy.Tag = "character";
             // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Location = new System.Drawing.Point(20, 367);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox17.TabIndex = 30;
+            this.pictureBox17.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(872, 527);
+            this.Controls.Add(this.pictureBox17);
+            this.Controls.Add(this.fireboyDoor);
+            this.Controls.Add(this.watergirlDoor);
+            this.Controls.Add(this.pictureBox16);
+            this.Controls.Add(this.pictureBox15);
+            this.Controls.Add(this.pictureBox14);
             this.Controls.Add(this.pictureBox13);
             this.Controls.Add(this.watergirl);
             this.Controls.Add(this.header);
-            this.Controls.Add(this.pictureBox17);
             this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.pictureBox10);
@@ -286,10 +353,14 @@
             this.Text = "Form1";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyIsDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyIsUp);
+            ((System.ComponentModel.ISupportInitialize)(this.fireboyDoor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.watergirlDoor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.watergirl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.header)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
@@ -303,6 +374,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fireboy)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -321,12 +393,17 @@
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.PictureBox pictureBox17;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.PictureBox header;
         private System.Windows.Forms.PictureBox fireboy;
         private System.Windows.Forms.PictureBox watergirl;
         private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.PictureBox pictureBox14;
+        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.PictureBox pictureBox16;
+        private System.Windows.Forms.PictureBox watergirlDoor;
+        private System.Windows.Forms.PictureBox fireboyDoor;
+        private System.Windows.Forms.PictureBox pictureBox17;
     }
 }
 

@@ -166,7 +166,6 @@ namespace Protocol
                         header.Top = x.Top - header.Height;
                     }
                 }
-
                 if (x is PictureBox && x.Tag == "platform")
                 {
                     if (fireboy.Bounds.IntersectsWith(x.Bounds) && !jumping)
@@ -185,13 +184,37 @@ namespace Protocol
                     }
                 }
 
-              
+              if(x is PictureBox && x.Tag == "watergirlDoor")
+                {
+                    if(watergirl.Bounds.IntersectsWith(x.Bounds))
+                    {
+                        timer1.Stop();
+                        MessageBox.Show("you WIN");//add score later
+                    
+                    }
+                }
+              if(x is PictureBox && x.Tag == "fireboyDoor")
+                {
+                    if(fireboy.Bounds.IntersectsWith(x.Bounds))
+                    {
+                        timer1.Stop();
+                        MessageBox.Show("you WIN");
+                       
+                    }
+                }
+                     
                 if (x is PictureBox && x.Tag == "water")
                 {
                     if (fireboy.Bounds.IntersectsWith(x.Bounds) && !jumping)
                     {
                         timer1.Stop();
                         MessageBox.Show("you DIED");
+                        fireboy.Location = new Point(700, 450);
+                        watergirl.Location = new Point(94, 443);
+                        jumping = false;
+                        goLeft = false;
+                        goRight = false;
+                       timer1.Start();
                     }
                 }
                 if(x is PictureBox && x.Tag =="fire")
@@ -200,7 +223,12 @@ namespace Protocol
                     {
                         timer1.Stop();
                         MessageBox.Show("you DIED");
-
+                        fireboy.Location = new Point(700, 450);
+                        watergirl.Location = new Point(94, 443);
+                        h2oRight = false;
+                        h2oJumping = false;
+                        h2oLeft = false;
+                       timer1.Start();
                     }
                 }
 

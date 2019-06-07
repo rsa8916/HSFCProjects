@@ -110,5 +110,17 @@
   <ItemGroup>
     <None Include="Resources\WATERGIRL.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\watergirlDoor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fireboyDoor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redDiamond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blueDiamond.jfif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
