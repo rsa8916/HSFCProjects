@@ -122,5 +122,8 @@
   <ItemGroup>
     <None Include="Resources\blueDiamond.jfif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blueDIA.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

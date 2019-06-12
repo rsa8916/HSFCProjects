@@ -17,18 +17,20 @@ namespace Protocol
         bool goRight = false;//a bool for fb to go right
         bool jumping = false;//a bool for fb jumping
         //for watergirl
-        bool h2oLeft = false;
-        bool h2oRight = false;
-        bool h2oJumping = false;
+        bool h2oLeft = false;//this contols wg to left
+        bool h2oRight = false;//right
+        bool h2oJumping = false;// a bool that when true the wg jumps
         
         //for fireboy
-        int jumpSpeed = 10;
-        double  force = 2;
+        int jumpSpeed = 10;//this is the speed at which the fb's jump
+        double  force = 2;// force contorls horizontal force
         //for watergirl
-        int h2oJumpSpeed = 10;
+        int h2oJumpSpeed = 10;//same as fb but for wg
         double h2oForce = 2;
 
-        public Form1()
+        int score = 0;//score of the gems collected by both fb and wg for LEVEL ONE
+
+        public Form1()//shows form one
         {
             InitializeComponent();
         }
@@ -42,7 +44,7 @@ namespace Protocol
             }
             if (e.KeyCode == Keys.Right)//right button
             {
-                goRight = true;
+                goRight = true;//makes the fb go right
             }
             if (e.KeyCode == Keys.Up && !jumping)//when the space bar is pressed down and jumping is not true
             {
@@ -50,34 +52,34 @@ namespace Protocol
             }
 
             //watergirl
-            if(e.KeyCode == Keys.A)
+            if(e.KeyCode == Keys.A)//when A is pressed down
             {
-                h2oLeft = true;
+                h2oLeft = true;// wg goes to the left
             }
-            if(e.KeyCode == Keys.D)
+            if(e.KeyCode == Keys.D)//when D is pressed down 
             {
-                h2oRight = true;
+                h2oRight = true;//wg goes right
             }
-            if(e.KeyCode == Keys.W && !h2oJumping)
+            if(e.KeyCode == Keys.W && !h2oJumping)//when W is pressed down and wg is not jumping 
             {
-                h2oJumping = true;
+                h2oJumping = true;//wg jumps!
             }
         }
 
-        private void keyIsUp(object sender, KeyEventArgs e)
+        private void keyIsUp(object sender, KeyEventArgs e)//when the key on the keyboard is released
         {
             //fireboy
             if (e.KeyCode == Keys.Left)
             {
-                goLeft = false;
+                goLeft = false;//fb stops going left
             }
             if (e.KeyCode == Keys.Right)
             {
-                goRight = false;
+                goRight = false;//fb stops going Right
             }
             if (jumping)
             {
-                jumping = false;
+                jumping = false;//stops jumping
             }
 
             //watergirl
@@ -99,24 +101,30 @@ namespace Protocol
         {
             //continusly dropping the player towards the ground
             //same effect as gravity (ish)
-            fireboy.Top += jumpSpeed;
-            watergirl.Top += h2oJumpSpeed;
-            header.Top += jumpSpeed;
+            fireboy.Top += jumpSpeed;//makes fb fall down like gravity
+            watergirl.Top += h2oJumpSpeed;//same but for wg
+           // header.Top += jumpSpeed;
 
-            if (jumping && force < 0)//checking if the player is jumping and the force is less than 0
+            //the score of the gems
+            gemScore.Text = score + "/14";//score of the amount of gems collected for LEVEL ONE
+            gemScore.Refresh();//updates lable every cycle
+
+            //for JUMPING
+            //checking if the player is jumping and the force is less than 0
+            if (jumping && force < 0)//for fireboy
             {
                 jumping = false;
             }
-            if(h2oJumping && h2oForce < 0)
+            if(h2oJumping && h2oForce < 0)//for watergirl
             {
                 h2oJumping = false;
             }
             
-
+            //MOVEMENTS
             if (goLeft)//if goleft is true we can push the player towards the left of the screen
             {
                 fireboy.Left -= 5;
-                header.Left -= 5;
+               // header.Left -= 5;
                 
             }
             if(h2oLeft)
@@ -127,14 +135,14 @@ namespace Protocol
             if (goRight)//if goright is true we can push the chararcter to the right of the screen 
             {
                 fireboy.Left += 5;
-                header.Left += 5;
+                //header.Left += 5;
               
             }
             if(h2oRight)
             {
                 watergirl.Left += 5;
             }
-            //jumoing
+            //jumping
             if (jumping)//if jumping is true
             {
                 jumpSpeed = -20;//will thrust the player towards the top 
@@ -155,33 +163,36 @@ namespace Protocol
             {
                 h2oJumpSpeed = 14;
             }
+            //end of movements
 
+            //TAGS and BOUNDS
             foreach (Control x in this.Controls)
             {
-                if(x is PictureBox && x.Tag == "character")
+               // if(x is PictureBox && x.Tag == "character")
+               // {
+                //    if(header.Bounds.IntersectsWith(x.Bounds))
+               //     {
+                //        force = 8;
+                //        header.Top = x.Top - header.Height;
+                //    }
+             //   }
+
+                if (x is PictureBox && x.Tag == "platform")//if the tag is the platform 
                 {
-                    if(header.Bounds.IntersectsWith(x.Bounds))
+                    if (fireboy.Bounds.IntersectsWith(x.Bounds) && !jumping)//if fb touches the platform and isnt jumping 
                     {
                         force = 8;
-                        header.Top = x.Top - header.Height;
-                    }
-                }
-                if (x is PictureBox && x.Tag == "platform")
-                {
-                    if (fireboy.Bounds.IntersectsWith(x.Bounds) && !jumping)
-                    {
-                        force = 8;
-                        fireboy.Top = x.Top - fireboy.Height;
+                        fireboy.Top = x.Top - fireboy.Height;//reverses the gravity
                     }
                     if(watergirl.Bounds.IntersectsWith(x.Bounds) && !h2oJumping)
                     {
                         h2oForce = 8;
                         watergirl.Top = x.Top - watergirl.Height;
                     }
-                    if(header.Bounds.IntersectsWith(x.Bounds))
-                    {
+                    //if(header.Bounds.IntersectsWith(x.Bounds))
+                  //  {
 
-                    }
+                 //   }
                 }
 
               if(x is PictureBox && x.Tag == "watergirlDoor")
@@ -202,7 +213,22 @@ namespace Protocol
                        
                     }
                 }
-                     
+                if(x is PictureBox && x.Tag == "redDiamond")
+                {
+                    if(fireboy.Bounds.IntersectsWith(x.Bounds))
+                    {
+                        this.Controls.Remove(x);
+                        score++;
+                    }
+                }
+                if (x is PictureBox && x.Tag =="blueDiamond")
+                {
+                    if (watergirl.Bounds.IntersectsWith(x.Bounds))
+                    {
+                        this.Controls.Remove(x);
+                        score++;
+                    }
+                }
                 if (x is PictureBox && x.Tag == "water")
                 {
                     if (fireboy.Bounds.IntersectsWith(x.Bounds) && !jumping)
@@ -215,6 +241,11 @@ namespace Protocol
                         goLeft = false;
                         goRight = false;
                        timer1.Start();
+                    }
+                    if(watergirl.Bounds.IntersectsWith(x.Bounds) && !jumping)
+                    {
+                        h2oForce = 8;
+                        watergirl.Top = x.Top - watergirl.Height;
                     }
                 }
                 if(x is PictureBox && x.Tag =="fire")
@@ -229,6 +260,11 @@ namespace Protocol
                         h2oJumping = false;
                         h2oLeft = false;
                        timer1.Start();
+                    }
+                    if(fireboy.Bounds.IntersectsWith(x.Bounds) && !h2oJumping)
+                    {
+                        force = 8;
+                        fireboy.Top = x.Top - fireboy.Height;
                     }
                 }
 
